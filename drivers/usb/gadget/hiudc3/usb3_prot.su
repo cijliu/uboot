@@ -1,0 +1,5 @@
+usb3_prot.c:24:6:usb3_bulk_out_transfer_cmd	16	static
+usb3_prot.c:60:5:usb3_bulk_out_transfer_data	8	static
+usb3_prot.c:40:6:usb3_handle_data	4	static
+usb3_prot.c:99:6:usb3_handle_protocol	8	static
+usb3_prot.c:88:6:udc_puts	8	static

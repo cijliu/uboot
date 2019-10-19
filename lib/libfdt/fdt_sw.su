@@ -1,0 +1,11 @@
+fdt_sw.c:12:12:_fdt_sw_check_header	0	static
+fdt_sw.c:27:14:_fdt_grab_space	4	static
+fdt_sw.c:42:5:fdt_create	16	static
+fdt_sw.c:64:5:fdt_resize	40	static
+fdt_sw.c:96:5:fdt_add_reservemap_entry	24	static
+fdt_sw.c:119:5:fdt_finish_reservemap	16	static
+fdt_sw.c:124:5:fdt_begin_node	24	static
+fdt_sw.c:140:5:fdt_end_node	16	static
+fdt_sw.c:177:5:fdt_property_placeholder	40	static
+fdt_sw.c:199:5:fdt_property	24	static
+fdt_sw.c:211:5:fdt_finish	32	static

@@ -1,0 +1,9 @@
+serial_pl01x.c:220:12:pl01x_serial_getc	0	static
+serial_pl01x.c:234:12:pl01x_serial_tstc	0	static
+serial_pl01x.c:184:13:pl01x_serial_init_baud	24	static
+serial_pl01x.c:205:5:pl01x_serial_init	8	static
+serial_pl01x.c:239:13:pl01x_serial_setbrg	0	static
+serial_pl01x.c:212:13:pl01x_serial_putc	0	static
+serial_pl01x.c:263:6:pl01x_serial_initialize	0	static
+serial_pl01x.c:268:30:default_serial_console	0	static
+serial_pl01x.c:275:6:serial_puts_to_hitool	8	static

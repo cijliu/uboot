@@ -1,0 +1,1 @@
+cmd_arch/arm/cpu/armv7/built-in.o :=  arm-himix100-linux-ld.bfd     -r -o arch/arm/cpu/armv7/built-in.o arch/arm/cpu/armv7/cache_v7.o arch/arm/cpu/armv7/cache_v7_asm.o arch/arm/cpu/armv7/cpu.o arch/arm/cpu/armv7/cp15.o arch/arm/cpu/armv7/syslib.o arch/arm/cpu/armv7/nonsec_virt.o arch/arm/cpu/armv7/virt-v7.o arch/arm/cpu/armv7/virt-dt.o 

@@ -1,0 +1,1 @@
+cmd_drivers/ddr/hisilicon/hi3516ev200/../default/built-in.o :=  arm-himix100-linux-ld.bfd     -r -o drivers/ddr/hisilicon/hi3516ev200/../default/built-in.o drivers/ddr/hisilicon/hi3516ev200/../default/ddr_cmd_loc.o drivers/ddr/hisilicon/hi3516ev200/../default/ddr_cmd_ctl.o drivers/ddr/hisilicon/hi3516ev200/../default/cmd_ddr_training_v2.o 

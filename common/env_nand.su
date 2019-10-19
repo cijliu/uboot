@@ -1,0 +1,3 @@
+env_nand.c:66:5:nand_env_init	0	static
+env_nand.c:184:5:nand_saveenv	262264	static
+env_nand.c:386:6:nand_env_relocate_spec	262272	static

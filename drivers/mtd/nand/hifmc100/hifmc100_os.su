@@ -1,0 +1,2 @@
+hifmc100_os.c:100:5:board_nand_init	24	static
+hifmc100_os.c:141:5:nand_get_ecctype	8	static

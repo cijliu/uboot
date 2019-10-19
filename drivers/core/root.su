@@ -1,0 +1,8 @@
+root.c:34:17:dm_root	8	static
+root.c:44:12:dm_get_translation_offset	8	static
+root.c:52:6:dm_set_translation_offset	8	static
+root.c:141:5:dm_init	8	static
+root.c:170:5:dm_uninit	8	static
+root.c:178:5:dm_scan_platdata	8	static
+root.c:236:12:dm_scan_other	0	static
+root.c:241:5:dm_init_and_scan	8	static

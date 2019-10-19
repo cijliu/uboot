@@ -1,0 +1,14 @@
+cache-cp15.c:25:13:cp_delay	8	static
+cache-cp15.c:222:13:cache_disable	16	static
+cache-cp15.c:17:13:arm_init_before_mmu	0	static
+cache-cp15.c:21:13:arm_init_domains	0	static
+cache-cp15.c:35:6:set_section_dcache	0	static
+cache-cp15.c:56:13:mmu_page_table_flush	0	static
+cache-cp15.c:61:6:mmu_set_region_dcache_behaviour	24	static
+cache-cp15.c:97:13:dram_bank_mmu_setup	8	static
+cache-cp15.c:260:6:icache_enable	8	static
+cache-cp15.c:265:6:icache_disable	0	static
+cache-cp15.c:270:5:icache_status	0	static
+cache-cp15.c:292:6:dcache_enable	8	static
+cache-cp15.c:297:6:dcache_disable	0	static
+cache-cp15.c:302:5:dcache_status	0	static

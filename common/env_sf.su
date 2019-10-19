@@ -1,0 +1,3 @@
+env_sf.c:239:5:sf_saveenv	262232	dynamic,bounded
+env_sf.c:323:6:sf_env_relocate_spec	16	static
+env_sf.c:356:5:sf_env_init	0	static

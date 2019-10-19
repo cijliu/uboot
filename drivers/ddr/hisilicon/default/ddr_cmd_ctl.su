@@ -1,0 +1,6 @@
+ddr_cmd_ctl.c:377:6:ddr_cmd_result_display	104	static
+ddr_cmd_ctl.c:387:6:ddr_reg_result_display_by_rank	32	static
+ddr_cmd_ctl.c:431:6:ddr_reg_result_display_by_phy	32	static
+ddr_cmd_ctl.c:457:6:ddr_reg_result_display	16	static
+ddr_cmd_ctl.c:495:7:ddr_cmd_get_entry	24	static
+ddr_cmd_ctl.c:549:32:ddr_cmd_training_if	16	static

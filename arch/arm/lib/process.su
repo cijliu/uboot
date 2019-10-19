@@ -1,0 +1,2 @@
+process.c:28:6:add_shutdown	0	static
+process.c:39:6:do_shutdown	16	static

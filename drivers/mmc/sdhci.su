@@ -1,0 +1,10 @@
+sdhci.c:735:13:sdhci_hs400_enhanced_stobe	0	static
+sdhci.c:760:12:sdhci_execute_tuning	0	static
+sdhci.c:770:12:sdhci_card_busy	0	static
+sdhci.c:23:13:sdhci_dumpregs	8	static
+sdhci.c:650:13:sdhci_set_ios	40	static
+sdhci.c:187:13:sdhci_reset.isra.3	16	static
+sdhci.c:695:12:sdhci_init	16	static
+sdhci.c:304:12:sdhci_send_command	40	static
+sdhci.c:804:5:sdhci_setup_cfg	8	static
+sdhci.c:896:5:add_sdhci	16	static

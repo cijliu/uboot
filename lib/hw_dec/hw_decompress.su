@@ -1,0 +1,7 @@
+hw_decompress_v1.c:64:6:hw_dec_sop_eop_first_set	0	static
+hw_decompress_v1.c:165:5:hw_dec_intr_proc	0	static
+hw_decompress_v1.c:207:6:hw_dec_start	8	static
+hw_decompress_v1.c:241:5:hw_dec_wait_finish	16	static
+hw_decompress_v1.c:261:5:hw_dec_decompress	40	static
+hw_decompress_v1.c:282:6:hw_dec_init	0	static
+hw_decompress_v1.c:299:6:hw_dec_uinit	0	static

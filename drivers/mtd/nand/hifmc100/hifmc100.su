@@ -1,0 +1,17 @@
+hifmc100.c:476:22:hifmc100_read_byte	0	static
+hifmc100.c:535:23:hifmc100_read_word	0	static
+hifmc100.c:575:13:hifmc100_select_chip	8	static
+hifmc100.c:600:13:hifmc100_cmdfunc	16	static
+hifmc100.c:659:12:hifmc100_dev_ready	24	static
+hifmc100.c:409:13:hifmc100_send_cmd_readid	16	static
+hifmc100.c:314:13:hifmc100_send_cmd_erase	24	static
+hifmc100.c:183:13:hifmc100_send_cmd_readstart	24	static
+hifmc100.c:69:13:hifmc100_send_cmd_pageprog	32	static
+hifmc100.c:561:13:hifmc100_read_buf	0	static
+hifmc100.c:545:13:hifmc100_write_buf	16	static
+hifmc100.c:873:12:hifmc100_set_config_info	56	static
+hifmc100.c:452:13:hifmc100_send_cmd_reset	16	static
+hifmc100.c:383:13:hifmc100_send_cmd_status	16	static
+hifmc100.c:35:6:hifmc100_ecc0_switch	0	static
+hifmc100.c:926:5:hifmc100_host_init	16	static
+hifmc100.c:1010:6:hifmc100_spi_nand_init	16	static

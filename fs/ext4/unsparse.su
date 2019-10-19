@@ -1,0 +1,3 @@
+unsparse.c:19:6:print_header_info	0	static
+unsparse.c:36:6:print_chunk_info	0	static
+unsparse.c:47:5:ext4_unsparse	88	static

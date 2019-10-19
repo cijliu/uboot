@@ -1,0 +1,1 @@
+cmd_drivers/mtd/built-in.o :=  arm-himix100-linux-ld.bfd     -r -o drivers/mtd/built-in.o drivers/mtd/mtdcore.o drivers/mtd/mtd_uboot.o drivers/mtd/mtdpart.o drivers/mtd/hifmc_common.o drivers/mtd/hifmc_hi3516ev200.o 

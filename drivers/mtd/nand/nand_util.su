@@ -1,0 +1,9 @@
+nand_util.c:412:12:check_skip_len	32	static
+nand_util.c:55:5:nand_erase_opts	200	static
+nand_util.c:481:5:nand_verify_page_oob	72	static
+nand_util.c:522:5:nand_verify	64	static
+nand_util.c:575:5:nand_write_skip_bad	88	static
+nand_util.c:713:5:nand_read_skip_bad	80	static
+nand_util.c:806:5:nand_write_yaffs_skip_bad	96	static
+nand_util.c:938:6:nand_fill_ecc	16	static
+nand_util.c:970:5:nand_read_yaffs_skip_bad	96	static

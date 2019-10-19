@@ -1,0 +1,1 @@
+../../../../../../arch/arm/cpu/armv7/hi3516ev200/himci_boot.c

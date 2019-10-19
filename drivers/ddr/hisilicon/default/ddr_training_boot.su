@@ -1,0 +1,6 @@
+ddr_training_boot.c:29:6:ddr_result_data_save	0	static
+ddr_training_boot.c:34:6:ddr_lpca_data_save	0	static
+ddr_training_boot.c:40:5:ddr_ddrt_get_test_addr	0	static
+ddr_training_boot.c:248:6:ddr_training_error	0	static
+ddr_training_boot.c:252:6:ddr_training_suc	0	static
+ddr_training_boot.c:256:6:ddr_training_start	0	static

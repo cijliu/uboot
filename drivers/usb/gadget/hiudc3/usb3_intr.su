@@ -1,0 +1,9 @@
+usb3_intr.c:8:6:ena_eventbuf_intr	8	static
+usb3_intr.c:19:6:dis_eventbuf_intr	8	static
+usb3_intr.c:30:6:usb3_dis_flush_eventbuf_intr	16	static
+usb3_intr.c:46:5:get_eventbuf_count	8	static
+usb3_intr.c:55:6:update_eventbuf_count	0	static
+usb3_intr.c:60:10:get_eventbuf_event	0	static
+usb3_intr.c:71:6:usb3_init_eventbuf	16	static
+usb3_intr.c:85:6:usb3_enable_device_interrupts	8	static
+usb3_intr.c:104:6:usb3_handle_event	24	static

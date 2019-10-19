@@ -1,0 +1,3 @@
+hisi_spi_nor.c:39:19:spi_flash_probe	16	static
+hisi_spi_nor.c:59:21:get_spiflash_info	8	static
+hisi_spi_nor.c:72:6:spi_flash_free	0	static

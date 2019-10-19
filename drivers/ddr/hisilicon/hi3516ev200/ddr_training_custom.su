@@ -1,0 +1,6 @@
+ddr_training_custom.c:35:6:ddr_cmd_prepare_copy	0	static
+ddr_training_custom.c:41:6:ddr_cmd_site_save	0	static
+ddr_training_custom.c:68:6:ddr_cmd_site_restore	0	static
+ddr_training_custom.c:83:6:ddr_training_save_reg_custom	0	static
+ddr_training_custom.c:84:6:ddr_training_restore_reg_custom	0	static
+ddr_training_custom.c:91:5:ddr_get_cksel	0	static

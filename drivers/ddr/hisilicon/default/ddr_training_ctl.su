@@ -1,0 +1,7 @@
+ddr_training_ctl.c:179:5:ddr_training_boot_func	72	static
+ddr_training_ctl.c:221:5:ddr_sw_training_func	136	static
+ddr_training_ctl.c:265:5:ddr_pcode_training_func	128	static
+ddr_training_ctl.c:282:5:ddr_hw_training_func	128	static
+ddr_training_ctl.c:298:5:ddr_sw_training_if	0	static
+ddr_training_ctl.c:303:5:ddr_hw_training_if	0	static
+ddr_training_ctl.c:308:5:ddr_pcode_training_if	0	static

@@ -1,0 +1,5 @@
+mii-drv.c:31:12:hieth_mdiobus_write	8	static
+mii-drv.c:24:12:hieth_mdiobus_read	0	static
+mii-drv.c:46:6:phy_detected	32	static
+mii-drv.c:115:5:hieth_mdiobus_driver_init	24	static
+mii-drv.c:148:6:hieth_mdiobus_driver_exit	8	static

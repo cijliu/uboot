@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/hifmc100/built-in.o :=  arm-himix100-linux-ld.bfd     -r -o drivers/mtd/nand/hifmc100/built-in.o drivers/mtd/nand/hifmc100/hifmc100.o drivers/mtd/nand/hifmc100/hifmc100_os.o drivers/mtd/nand/hifmc100/hifmc_spi_nand_ids.o 

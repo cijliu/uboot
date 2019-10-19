@@ -1,0 +1,6 @@
+phy-hi3516ev200-usb.c:100:5:xhci_hcd_init	0	static
+phy-hi3516ev200-usb.c:111:6:usb2_eye_config	0	static
+phy-hi3516ev200-usb.c:138:6:usb2_trim_config	0	static
+phy-hi3516ev200-usb.c:157:6:usb2_svb_config	0	static
+phy-hi3516ev200-usb.c:180:6:phy_hiusb_init	8	static
+phy-hi3516ev200-usb.c:299:6:xhci_hcd_stop	8	static

@@ -1,0 +1,8 @@
+hifmc100_spi_general.c:266:12:spi_do_not_qe_enable	0	static
+hifmc_spi_nand_ids.c:1413:13:hifmc100_spi_nand_search_rw.constprop	12	static
+hifmc100_spi_general.c:24:8:spi_nand_feature_op	24	static
+hifmc100_spi_general.c:223:12:spi_general_qe_enable	32	static
+hifmc100_spi_general.c:142:12:spi_general_write_enable	16	static
+hifmc100_spi_general.c:109:12:spi_general_wait_ready	24	static
+hifmc_spi_nand_ids.c:1576:31:spi_nand_get_flash_info	232	static
+hifmc_spi_nand_ids.c:1630:6:hifmc_spi_nand_ids_register	8	static

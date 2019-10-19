@@ -1,0 +1,4 @@
+download_process.c:80:12:recv_byte	8	static
+download_process.c:64:23:calc_crc16.constprop	8	static
+download_process.c:99:6:download_process	24	static
+download_process.c:183:28:download_boot	8	static

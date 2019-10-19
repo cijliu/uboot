@@ -1,0 +1,5 @@
+virt-v7.c:26:22:get_gicd_base_address	8	static
+virt-v7.c:51:13:protect_secure_section	0	static
+virt-v7.c:74:13:smp_kick_all_cpus	8	static
+virt-v7.c:85:13:psci_board_init	0	static
+virt-v7.c:89:5:armv7_init_nonsec	8	static

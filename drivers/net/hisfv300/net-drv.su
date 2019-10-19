@@ -1,0 +1,6 @@
+net-drv.c:425:12:hieth_recv	24	static
+net-drv.c:479:12:hieth_send	16	static
+net-drv.c:519:13:hieth_halt	8	static
+net-drv.c:118:5:eth_set_host_mac_address	40	static
+net-drv.c:292:5:hieth_init	72	static
+net-drv.c:554:5:hieth_initialize	8	static

@@ -1,0 +1,13 @@
+hinfc_common.c:39:13:nand_ecc_name	0	static
+hinfc_common.c:54:13:nand_page_name	0	static
+hinfc_common.c:69:5:nandpage_size2type	0	static
+hinfc_common.c:74:5:nandpage_type2size	0	static
+hinfc_common.c:97:15:match_ecc_type_to_yaffs	8	static
+hinfc_common.c:111:15:match_page_reg_to_type	8	static
+hinfc_common.c:117:15:match_page_type_to_reg	8	static
+hinfc_common.c:123:13:match_page_type_to_str	0	static
+hinfc_common.c:140:15:match_ecc_reg_to_type	8	static
+hinfc_common.c:146:15:match_ecc_type_to_reg	8	static
+hinfc_common.c:152:13:match_ecc_type_to_str	0	static
+hinfc_common.c:166:15:match_page_size_to_type	8	static
+hinfc_common.c:172:14:match_page_type_to_size	0	static

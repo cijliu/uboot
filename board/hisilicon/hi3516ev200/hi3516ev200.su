@@ -1,0 +1,17 @@
+hi3516ev200.c:20:6:enable_caches	0	static
+hi3516ev200.c:27:5:get_boot_media	0	static
+hi3516ev200.c:77:5:get_text_base	0	static
+hi3516ev200.c:108:5:board_early_init_f	0	static
+hi3516ev200.c:115:5:save_bootdata_to_flash	120	static
+hi3516ev200.c:227:5:is_bare_program	0	static
+hi3516ev200.c:232:5:is_auto_update	0	static
+hi3516ev200.c:262:5:misc_init_r	8	static
+hi3516ev200.c:311:5:board_init	0	static
+hi3516ev200.c:323:5:dram_init	0	static
+hi3516ev200.c:331:6:reset_cpu	0	static
+hi3516ev200.c:337:5:timer_init	0	static
+hi3516ev200.c:354:5:board_eth_init	0	static
+hi3516ev200.c:368:5:board_mmc_init	0	static
+hi3516ev200.c:403:6:smp_set_core_boot_addr	0	static
+hi3516ev200.c:407:6:smp_kick_all_cpus	0	static
+hi3516ev200.c:411:6:smp_waitloop	0	static

@@ -1,0 +1,17 @@
+auto_update_adaptation.c:192:12:nand_flash_init	0	static
+auto_update_adaptation.c:290:12:nand_flash_yaffs_write	24	static
+auto_update_adaptation.c:84:13:schedule_notify	24	static
+auto_update_adaptation.c:234:12:nand_flash_write	72	static
+auto_update_adaptation.c:198:12:nand_flash_erase	64	static
+auto_update_adaptation.c:184:12:spinor_flash_write	32	static
+auto_update_adaptation.c:147:12:spinor_flash_erase	32	static
+auto_update_adaptation.c:111:12:spinor_flash_init	8	static
+auto_update_adaptation.c:339:12:mmc_save_write_ext4	24	static
+auto_update_adaptation.c:322:12:mmc_save_write	24	static
+auto_update_adaptation.c:308:12:mmc_save_init	8	static
+auto_update_adaptation.c:581:12:env_pick_up.constprop	1040	static
+auto_update_adaptation.c:660:21:list_insert	0	static
+auto_update_adaptation.c:682:20:mtd_list_sort	8	static
+auto_update_adaptation.c:725:20:get_mtd_parts	24	static
+auto_update_adaptation.c:788:5:bootargs_analyze	1072	static
+auto_update_adaptation.c:1002:5:do_auto_update	56	static

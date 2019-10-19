@@ -1,0 +1,3 @@
+hifmc100_os.c:36:13:hifmc100_driver_shutdown	16	static
+hifmc100_os.c:120:19:hifmc100_spi_nor_probe	24	static
+hifmc100_os.c:85:21:hifmc100_get_spi_nor_info	8	static

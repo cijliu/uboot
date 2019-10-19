@@ -1,0 +1,2 @@
+hifmc_hi3516ev200.c:53:6:hifmc_set_fmc_system_clock	4	static
+hifmc_hi3516ev200.c:89:6:hifmc_get_fmc_best_2x_clock	48	static

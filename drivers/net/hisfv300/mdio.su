@@ -1,0 +1,6 @@
+mdio.c:24:12:wait_mdio_ready.isra.0	16	static
+mdio.c:35:5:hieth_mdio_read	24	static
+mdio.c:65:5:hieth_mdio_write	24	static
+mdio.c:89:5:hieth_mdio_reset	0	static
+mdio.c:96:5:hieth_mdio_init	8	static
+mdio.c:105:6:hieth_mdio_exit	0	static

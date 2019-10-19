@@ -1,0 +1,2 @@
+usb3_pcd_intr.c:79:5:usb3_handle_ep_intr	24	static
+usb3_pcd_intr.c:132:6:usb3_handle_dev_intr	24	static

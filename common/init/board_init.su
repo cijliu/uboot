@@ -1,0 +1,3 @@
+board_init.c:56:7:board_init_f_alloc_reserve	0	static
+board_init.c:110:6:board_init_f_init_reserve	8	static
+board_init.c:153:13:show_boot_progress	0	static

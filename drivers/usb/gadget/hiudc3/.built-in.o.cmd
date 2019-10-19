@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/hiudc3/built-in.o :=  arm-himix100-linux-ld.bfd     -r -o drivers/usb/gadget/hiudc3/built-in.o drivers/usb/gadget/hiudc3/usb3_drv.o drivers/usb/gadget/hiudc3/usb3_pcd.o drivers/usb/gadget/hiudc3/usb3_intr.o drivers/usb/gadget/hiudc3/usb3_pcd_intr.o drivers/usb/gadget/hiudc3/usb3_prot.o 

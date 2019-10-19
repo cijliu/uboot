@@ -1,0 +1,1 @@
+../../../../../../drivers/ddr/hisilicon/hi3516ev200/ddr_training_custom.c

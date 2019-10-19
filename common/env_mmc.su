@@ -1,0 +1,5 @@
+env_mmc.c:39:12:mmc_get_env_addr	0	static
+env_mmc.c:57:12:mmc_get_env_dev	0	static
+env_mmc.c:62:5:emmc_env_init	0	static
+env_mmc.c:145:5:emmc_saveenv	262248	static
+env_mmc.c:299:6:emmc_env_relocate_spec	262248	static

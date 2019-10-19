@@ -1,0 +1,2 @@
+cmd_ddr_training_v2.c:222:5:cmd_ddr_set_log_level	16	static
+cmd_ddr_training_v2.c:263:12:do_ddr_training	24	static

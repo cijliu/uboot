@@ -1,0 +1,1 @@
+../../../../../../drivers/ddr/hisilicon/default/ddr_training_ctl.c

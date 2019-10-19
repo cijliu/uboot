@@ -1,0 +1,5 @@
+part_iso.c:30:15:iso_dread	32	static
+part_iso.c:67:5:part_get_info_iso_verb	40	static
+part_iso.c:245:12:part_test_iso	128	static
+part_iso.c:226:13:part_print_iso	152	static
+part_iso.c:220:12:part_get_info_iso	0	static

@@ -1,0 +1,9 @@
+menu "UFS Support"
+
+config UFS
+	bool "Support Universal Flash Storage"
+	help
+	  Enable the UFS driver. This driver can be used to
+	  access the ufs card.
+
+endmenu # menu "UFS Support"

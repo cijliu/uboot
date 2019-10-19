@@ -1,0 +1,4 @@
+hifmc_common.c:37:5:hifmc_ip_ver_check	8	static
+hifmc_common.c:56:6:hifmc_dev_type_switch	0	static
+hifmc_common.c:104:7:ulltostr	48	static
+hifmc_common.c:119:6:debug_register_dump	16	static

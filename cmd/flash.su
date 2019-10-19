@@ -1,0 +1,3 @@
+flash.c:308:12:do_flerase	0	static
+flash.c:441:12:do_protect	0	static
+flash.c:276:12:do_flinfo	0	static

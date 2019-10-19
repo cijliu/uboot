@@ -1,0 +1,8 @@
+sys.c:109:6:set_efuse_unread	0	static
+sys.c:115:6:set_inner_phy_addr	0	static
+sys.c:170:6:revise_led_shine	0	static
+sys.c:205:6:set_phy_valtage	0	static
+sys.c:373:6:hieth_sys_startup	0	static
+sys.c:380:6:hieth_sys_allstop	0	static
+sys.c:384:6:hieth_sys_init	8	static
+sys.c:395:6:hieth_sys_exit	0	static

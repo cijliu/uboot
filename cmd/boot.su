@@ -1,0 +1,2 @@
+boot.c:19:15:do_go_exec	0	static
+boot.c:25:12:do_go	16	static

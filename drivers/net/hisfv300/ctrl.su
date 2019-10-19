@@ -1,0 +1,6 @@
+ctrl.c:67:5:hieth_irq_enable	0	static
+ctrl.c:78:5:hieth_irq_disable	0	static
+ctrl.c:89:5:hieth_read_irqstatus	0	static
+ctrl.c:100:5:hieth_read_raw_irqstatus	0	static
+ctrl.c:111:5:hieth_clear_irqstatus	0	static
+ctrl.c:123:5:hieth_set_endian_mode	0	static

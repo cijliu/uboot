@@ -1,0 +1,9 @@
+bootm.c:45:6:arch_lmb_reserve	0	static
+bootm.c:189:13:setup_board_tags	0	static
+bootm.c:204:13:boot_prep_linux.isra.3	16	static
+bootm.c:251:13:armv7_boot_nonsec_default	0	static
+bootm.c:261:6:armv7_boot_nonsec	16	static
+bootm.c:277:13:boot_jump_linux.isra.4	24	static
+bootm.c:344:5:do_bootm_linux	24	static
+bootm.c:367:6:boot_prep_vxworks	0	static
+bootm.c:384:6:boot_jump_vxworks	0	static

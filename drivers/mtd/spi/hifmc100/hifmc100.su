@@ -1,0 +1,9 @@
+hifmc100.c:770:13:hifmc100_set_host_addr_mode	0	static
+hifmc100.c:625:12:hifmc100_reg_erase	40	static
+hifmc100.c:35:13:hifmc100_dma_transfer	24	static
+hifmc100.c:221:12:hifmc100_dma_read	40	static
+hifmc100.c:386:12:hifmc100_dma_write	48	static
+hifmc100.c:305:6:hifmc100_read_ids	16	static
+hifmc100.c:695:19:hifmc100_spi_nor_scan	16	static
+hifmc100.c:824:5:hifmc100_spi_nor_init	8	static
+hifmc100.c:1416:6:hifmc100_op_reg	16	static

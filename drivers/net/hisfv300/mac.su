@@ -1,0 +1,10 @@
+mac.c:24:12:_set_linkstat	0	static
+mac.c:34:12:_set_negmode	0	static
+mac.c:53:5:hieth_set_linkstat	0	static
+mac.c:64:5:hieth_get_linkstat	0	static
+mac.c:75:5:hieth_set_mac_leadcode_cnt_limit	0	static
+mac.c:89:5:hieth_set_mac_trans_interval_bits	24	static
+mac.c:112:5:hieth_set_mac_fc_interval	0	static
+mac.c:124:5:hieth_set_negmode	0	static
+mac.c:135:5:hieth_get_negmode	0	static
+mac.c:146:5:hieth_set_mii_mode	0	static

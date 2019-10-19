@@ -1,0 +1,697 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x40700000                . = 0x40700000
+                0x40700000                __image_copy_start = .
+                0x40700000                . = ALIGN (0x4)
+
+.text           0x40700000     0x4794
+                0x40700000                __text_start = .
+ start.o(.text*)
+ .text          0x40700000     0x16fc start.o
+                0x40700000                _start
+                0x40701440                _blank_zone_start
+                0x40701444                _blank_zone_end
+                0x40701450                _TEXT_BASE
+                0x4070145c                reset
+                0x40701460                save_boot_params_ret
+                0x40701670                c_runtime_cpu_setup
+                0x40701680                save_boot_params
+                0x40701684                cpu_init_cp15
+ init_registers.o(.text*)
+ .text          0x407016fc        0x0 init_registers.o
+ .text.reg_read
+                0x407016fc       0x40 init_registers.o
+ .text.reg_write
+                0x4070173c       0x4c init_registers.o
+ .text.init_registers
+                0x40701788      0x108 init_registers.o
+                0x40701788                init_registers
+ lowlevel_init_v300.o(.text*)
+ .text          0x40701890        0x0 lowlevel_init_v300.o
+ .text.delay    0x40701890       0x3c lowlevel_init_v300.o
+ .text.get_random_num
+                0x407018cc       0x20 lowlevel_init_v300.o
+ .text.trng_init
+                0x407018ec       0x28 lowlevel_init_v300.o
+                0x407018ec                trng_init
+ .text.trng_deinit
+                0x40701914       0x18 lowlevel_init_v300.o
+                0x40701914                trng_deinit
+ .text.ddr_scramb
+                0x4070192c       0xac lowlevel_init_v300.o
+                0x4070192c                ddr_scramb
+ .text.start_svb
+                0x407019d8      0x1e4 lowlevel_init_v300.o
+                0x407019d8                start_svb
+ .text.start_ddr_training
+                0x40701bbc      0x174 lowlevel_init_v300.o
+                0x40701bbc                start_ddr_training
+ ddr_training_impl.o(.text*)
+ .text          0x40701d30        0x0 ddr_training_impl.o
+ .text.ddr_adjust_get_average
+                0x40701d30       0x84 ddr_training_impl.o
+ .text.ddrtr_memcpy
+                0x40701db4       0x20 ddr_training_impl.o
+                0x40701db4                ddrtr_memcpy
+ .text.ddrtr_memset
+                0x40701dd4       0x1c ddr_training_impl.o
+                0x40701dd4                ddrtr_memset
+ .text.ddr_training_by_dmc
+                0x40701df0       0x18 ddr_training_impl.o
+                0x40701df0                ddr_training_by_dmc
+ .text.ddr_training_by_rank
+                0x40701e08       0x80 ddr_training_impl.o
+                0x40701e08                ddr_training_by_rank
+ .text.ddr_training_by_phy
+                0x40701e88       0x78 ddr_training_impl.o
+                0x40701e88                ddr_training_by_phy
+ .text.ddr_training_all
+                0x40701f00       0x4c ddr_training_impl.o
+                0x40701f00                ddr_training_all
+ .text.ddr_training_cfg_set_rank
+                0x40701f4c       0x44 ddr_training_impl.o
+                0x40701f4c                ddr_training_cfg_set_rank
+ .text.ddr_training_cfg_set_phy
+                0x40701f90       0x24 ddr_training_impl.o
+                0x40701f90                ddr_training_cfg_set_phy
+ .text.ddr_training_set_timing
+                0x40701fb4       0x30 ddr_training_impl.o
+                0x40701fb4                ddr_training_set_timing
+ .text.ddr_vref_set
+                0x40701fe4      0x1b8 ddr_training_impl.o
+ .text.ddr_training_stat
+                0x4070219c       0x68 ddr_training_impl.o
+                0x4070219c                ddr_training_stat
+ .text.ddr_hw_training_process
+                0x40702204      0x120 ddr_training_impl.o
+ .text.ddr_training_check_bypass
+                0x40702324       0x14 ddr_training_impl.o
+                0x40702324                ddr_training_check_bypass
+ .text.ddr_training_phy_disable
+                0x40702338        0x8 ddr_training_impl.o
+                0x40702338                ddr_training_phy_disable
+ .text.ddr_training_switch_axi
+                0x40702340       0x68 ddr_training_impl.o
+                0x40702340                ddr_training_switch_axi
+ .text.ddr_phy_cfg_update
+                0x407023a8       0x30 ddr_training_impl.o
+                0x407023a8                ddr_phy_cfg_update
+ .text.ddr_training_save_reg
+                0x407023d8       0xf4 ddr_training_impl.o
+                0x407023d8                ddr_training_save_reg
+ .text.ddr_training_restore_reg
+                0x407024cc       0x80 ddr_training_impl.o
+                0x407024cc                ddr_training_restore_reg
+ .text.ddr_phy_set_dq_bdl
+                0x4070254c       0x78 ddr_training_impl.o
+                0x4070254c                ddr_phy_set_dq_bdl
+ .text.ddr_phy_get_dq_bdl
+                0x407025c4       0x64 ddr_training_impl.o
+                0x407025c4                ddr_phy_get_dq_bdl
+ .text.ddr_rdqs_sync_rank_rdq
+                0x40702628       0x6c ddr_training_impl.o
+ .text.ddr_adjust_set_val
+                0x40702694       0xb0 ddr_training_impl.o
+ .text.ddr_phy_get_byte_num
+                0x40702744       0x18 ddr_training_impl.o
+                0x40702744                ddr_phy_get_byte_num
+ .text.ddr_training_cfg_set_dmc
+                0x4070275c       0x94 ddr_training_impl.o
+                0x4070275c                ddr_training_cfg_set_dmc
+ .text.ddr_training_cfg_init
+                0x407027f0       0x30 ddr_training_impl.o
+                0x407027f0                ddr_training_cfg_init
+ .text.ddr_ddrt_init
+                0x40702820      0x108 ddr_training_impl.o
+                0x40702820                ddr_ddrt_init
+ .text.ddr_ddrt_test
+                0x40702928      0x11c ddr_training_impl.o
+                0x40702928                ddr_ddrt_test
+ .text.ddr_dataeye_check_dq
+                0x40702a44       0x84 ddr_training_impl.o
+                0x40702a44                ddr_dataeye_check_dq
+ .text.ddr_dataeye_search_dq
+                0x40702ac8       0xdc ddr_training_impl.o
+ .text.ddr_dataeye_deskew
+                0x40702ba4      0x260 ddr_training_impl.o
+                0x40702ba4                ddr_dataeye_deskew
+ .text.ddr_vref_get_win
+                0x40702e04       0x58 ddr_training_impl.o
+ .text.ddr_vref_find_best
+                0x40702e5c       0x9c ddr_training_impl.o
+ .text.ddr_vref_cal
+                0x40702ef8       0xc0 ddr_training_impl.o
+ .text.ddr_adjust_move_win.constprop.14
+                0x40702fb8      0x16c ddr_training_impl.o
+ .text.ddr_adjust_dataeye
+                0x40703124       0x94 ddr_training_impl.o
+                0x40703124                ddr_adjust_dataeye
+ .text.ddr_dataeye_process
+                0x407031b8       0x88 ddr_training_impl.o
+ .text.ddr_dataeye_training
+                0x40703240       0x6c ddr_training_impl.o
+                0x40703240                ddr_dataeye_training
+ .text.ddr_dataeye_training_func
+                0x407032ac       0x6c ddr_training_impl.o
+                0x407032ac                ddr_dataeye_training_func
+ .text.ddr_hw_dataeye_read
+                0x40703318       0x78 ddr_training_impl.o
+                0x40703318                ddr_hw_dataeye_read
+ .text.ddr_hw_training_ctl
+                0x40703390      0x37c ddr_training_impl.o
+                0x40703390                ddr_hw_training_ctl
+ .text.ddr_hw_training
+                0x4070370c      0x258 ddr_training_impl.o
+                0x4070370c                ddr_hw_training
+ .text.ddr_vref_training
+                0x40703964      0x244 ddr_training_impl.o
+                0x40703964                ddr_vref_training
+ .text.ddr_vref_training_func
+                0x40703ba8       0x94 ddr_training_impl.o
+                0x40703ba8                ddr_vref_training_func
+ .text.ddr_wl_func
+                0x40703c3c        0x8 ddr_training_impl.o
+                0x40703c3c                ddr_wl_func
+ .text.ddr_gating_func
+                0x40703c44        0x8 ddr_training_impl.o
+                0x40703c44                ddr_gating_func
+ .text.ddr_ac_training_func
+                0x40703c4c        0x8 ddr_training_impl.o
+                0x40703c4c                ddr_ac_training_func
+ .text.ddr_lpca_training_func
+                0x40703c54        0x8 ddr_training_impl.o
+                0x40703c54                ddr_lpca_training_func
+ .text.ddr_dcc_training_func
+                0x40703c5c        0x8 ddr_training_impl.o
+                0x40703c5c                ddr_dcc_training_func
+ .text.ddr_pcode_training
+                0x40703c64      0x160 ddr_training_impl.o
+                0x40703c64                ddr_pcode_training
+ ddr_training_console.o(.text*)
+ .text          0x40703dc4        0x0 ddr_training_console.o
+ .text.ddr_training_console_if
+                0x40703dc4        0x8 ddr_training_console.o
+                0x40703dc4                ddr_training_console_if
+ ddr_training_ctl.o(.text*)
+ .text          0x40703dcc        0x0 ddr_training_ctl.o
+ .text.ddr_training_boot_func
+                0x40703dcc       0xc4 ddr_training_ctl.o
+                0x40703dcc                ddr_training_boot_func
+ .text.ddr_sw_training_func
+                0x40703e90       0x98 ddr_training_ctl.o
+                0x40703e90                ddr_sw_training_func
+ .text.ddr_pcode_training_func
+                0x40703f28       0x20 ddr_training_ctl.o
+                0x40703f28                ddr_pcode_training_func
+ .text.ddr_hw_training_func
+                0x40703f48       0x20 ddr_training_ctl.o
+                0x40703f48                ddr_hw_training_func
+ .text.ddr_sw_training_if
+                0x40703f68        0x4 ddr_training_ctl.o
+                0x40703f68                ddr_sw_training_if
+ .text.ddr_hw_training_if
+                0x40703f6c        0x4 ddr_training_ctl.o
+                0x40703f6c                ddr_hw_training_if
+ .text.ddr_pcode_training_if
+                0x40703f70        0x4 ddr_training_ctl.o
+                0x40703f70                ddr_pcode_training_if
+ ddr_training_boot.o(.text*)
+ .text          0x40703f74        0x0 ddr_training_boot.o
+ .text.ddr_result_data_save
+                0x40703f74        0x4 ddr_training_boot.o
+                0x40703f74                ddr_result_data_save
+ .text.ddr_lpca_data_save
+                0x40703f78        0x4 ddr_training_boot.o
+                0x40703f78                ddr_lpca_data_save
+ .text.ddr_ddrt_get_test_addr
+                0x40703f7c        0x8 ddr_training_boot.o
+                0x40703f7c                ddr_ddrt_get_test_addr
+ .text.ddr_training_error
+                0x40703f84        0x4 ddr_training_boot.o
+                0x40703f84                ddr_training_error
+ .text.ddr_training_suc
+                0x40703f88        0x4 ddr_training_boot.o
+                0x40703f88                ddr_training_suc
+ .text.ddr_training_start
+                0x40703f8c        0x4 ddr_training_boot.o
+                0x40703f8c                ddr_training_start
+ ddr_training_custom.o(.text*)
+ .text          0x40703f90        0x0 ddr_training_custom.o
+ .text.ddr_cmd_prepare_copy
+                0x40703f90        0x4 ddr_training_custom.o
+                0x40703f90                ddr_cmd_prepare_copy
+ .text.ddr_cmd_site_save
+                0x40703f94       0x64 ddr_training_custom.o
+                0x40703f94                ddr_cmd_site_save
+ .text.ddr_cmd_site_restore
+                0x40703ff8       0x38 ddr_training_custom.o
+                0x40703ff8                ddr_cmd_site_restore
+ .text.ddr_training_save_reg_custom
+                0x40704030        0x4 ddr_training_custom.o
+                0x40704030                ddr_training_save_reg_custom
+ .text.ddr_training_restore_reg_custom
+                0x40704034        0x4 ddr_training_custom.o
+                0x40704034                ddr_training_restore_reg_custom
+ .text.ddr_get_cksel
+                0x40704038       0x30 ddr_training_custom.o
+                0x40704038                ddr_get_cksel
+ uart.o(.text*)
+ .text          0x40704068       0xc8 uart.o
+                0x40704068                uart_early_init
+                0x4070409c                uart_early_puts
+                0x407040cc                uart_early_put_hex
+                0x40704110                uart_early_putc
+ div0.o(.text*)
+ .text          0x40704130        0x0 div0.o
+ .text.__div0   0x40704130        0x4 div0.o
+                0x40704130                __div0
+ emmc_boot.o(.text*)
+ .text          0x40704134        0x0 emmc_boot.o
+ .text.sdhci_check_int_status
+                0x40704134       0x50 emmc_boot.o
+                0x40704134                sdhci_check_int_status
+ .text.sdhci_read_boot_data
+                0x40704184       0xcc emmc_boot.o
+                0x40704184                sdhci_read_boot_data
+ .text.emmc_boot_read
+                0x40704250        0x4 emmc_boot.o
+                0x40704250                emmc_boot_read
+ image_data.o(.text*)
+ .text          0x40704254        0x0 image_data.o
+ startup.o(.text*)
+ .text          0x40704254        0x0 startup.o
+ .text.hw_dec_sop_eop_first_set
+                0x40704254       0x4c startup.o
+                0x40704254                hw_dec_sop_eop_first_set
+ .text.hw_dec_intr_proc
+                0x407042a0       0xb0 startup.o
+                0x407042a0                hw_dec_intr_proc
+ .text.hw_dec_start
+                0x40704350       0xb8 startup.o
+                0x40704350                hw_dec_start
+ .text.hw_dec_wait_finish
+                0x40704408       0x3c startup.o
+                0x40704408                hw_dec_wait_finish
+ .text.hw_dec_decompress
+                0x40704444       0x7c startup.o
+                0x40704444                hw_dec_decompress
+ .text.hw_dec_init
+                0x407044c0       0x64 startup.o
+                0x407044c0                hw_dec_init
+ .text.hw_dec_uinit
+                0x40704524       0x48 startup.o
+                0x40704524                hw_dec_uinit
+ .text.start_armboot
+                0x4070456c       0xbc startup.o
+                0x4070456c                start_armboot
+ .text.hang     0x40704628       0x14 startup.o
+                0x40704628                hang
+ .text.do_bad_sync
+                0x4070463c       0x28 startup.o
+                0x4070463c                do_bad_sync
+ .text.do_sync  0x40704664       0x28 startup.o
+                0x40704664                do_sync
+ .text.do_bad_error
+                0x4070468c       0x28 startup.o
+                0x4070468c                do_bad_error
+ .text.do_error
+                0x407046b4       0x28 startup.o
+                0x407046b4                do_error
+ .text.do_bad_fiq
+                0x407046dc       0x28 startup.o
+                0x407046dc                do_bad_fiq
+ .text.do_bad_irq
+                0x40704704       0x28 startup.o
+                0x40704704                do_bad_irq
+ .text.do_fiq   0x4070472c       0x28 startup.o
+                0x4070472c                do_fiq
+ .text.do_irq   0x40704754       0x28 startup.o
+                0x40704754                do_irq
+ reset.o(.text*)
+ .text          0x4070477c       0x18 reset.o
+                0x4070477c                reset_cpu
+                0x40704794                __init_end = .
+                0x00000001                ASSERT (((__init_end - __text_start) < 0x6000), init sections too big!)
+ *(.text*)
+                0x40704794                __text_end = .
+
+.glue_7         0x40704794        0x0
+ .glue_7        0x40704794        0x0 linker stubs
+
+.glue_7t        0x40704794        0x0
+ .glue_7t       0x40704794        0x0 linker stubs
+
+.vfp11_veneer   0x40704794        0x0
+ .vfp11_veneer  0x40704794        0x0 linker stubs
+
+.v4_bx          0x40704794        0x0
+ .v4_bx         0x40704794        0x0 linker stubs
+
+.iplt           0x40704794        0x0
+ .iplt          0x40704794        0x0 start.o
+                0x40704794                . = ALIGN (0x4)
+
+.image          0x407047a0    0x3748d
+ *(.image)
+ .image         0x407047a0    0x3748d image_data.o
+                0x407047a0                input_data
+                0x4073bc2d                input_data_end
+                0x4073bc30                . = ALIGN (0x4)
+
+.rodata         0x4073bc30       0xac
+ *(SORT(.rodata*))
+ .rodata.IMAGE_ENTRY
+                0x4073bc30        0x4 startup.o
+                0x4073bc30                IMAGE_ENTRY
+ .rodata.do_bad_error.str1.1
+                0x4073bc34        0xc startup.o
+ .rodata.do_bad_fiq.str1.1
+                0x4073bc40       0x1d startup.o
+ .rodata.do_bad_irq.str1.1
+                0x4073bc5d       0x18 startup.o
+ .rodata.do_bad_sync.str1.1
+                0x4073bc75       0x25 startup.o
+ .rodata.do_error.str1.1
+                0x4073bc9a       0x25 startup.o
+                                  0x8 (size before relaxing)
+ .rodata.do_fiq.str1.1
+                0x4073bc9a       0x25 startup.o
+                                 0x19 (size before relaxing)
+ .rodata.do_irq.str1.1
+                0x4073bc9a       0x25 startup.o
+                                 0x14 (size before relaxing)
+ .rodata.do_sync.str1.1
+                0x4073bc9a       0x25 startup.o
+                                  0xd (size before relaxing)
+ .rodata.hang.str1.1
+                0x4073bc9a       0x2a startup.o
+ .rodata.start_armboot.str1.1
+                0x4073bcc4       0x18 startup.o
+
+.rel.dyn        0x4073bcdc        0x0
+ .rel.iplt      0x4073bcdc        0x0 start.o
+                0x4073bcdc                . = ALIGN (0x4)
+
+.data           0x4073bcdc        0x0
+ *(.data)
+ .data          0x4073bcdc        0x0 start.o
+ .data          0x4073bcdc        0x0 init_registers.o
+ .data          0x4073bcdc        0x0 lowlevel_init_v300.o
+ .data          0x4073bcdc        0x0 ddr_training_impl.o
+ .data          0x4073bcdc        0x0 ddr_training_console.o
+ .data          0x4073bcdc        0x0 ddr_training_ctl.o
+ .data          0x4073bcdc        0x0 ddr_training_boot.o
+ .data          0x4073bcdc        0x0 ddr_training_custom.o
+ .data          0x4073bcdc        0x0 uart.o
+ .data          0x4073bcdc        0x0 div0.o
+ .data          0x4073bcdc        0x0 emmc_boot.o
+ .data          0x4073bcdc        0x0 image_data.o
+ .data          0x4073bcdc        0x0 startup.o
+ .data          0x4073bcdc        0x0 reset.o
+
+.igot.plt       0x4073bcdc        0x0
+ .igot.plt      0x4073bcdc        0x0 start.o
+                0x4073bcdc                . = ALIGN (0x4)
+
+.got
+ *(.got)
+                0x4073bcdc                . = ALIGN (0x4)
+                0x4073bcdc                __image_copy_end = .
+                0x4073bcdc                __bss_start = .
+
+.bss            0x4073bcdc        0x0
+ *(.bss)
+ .bss           0x4073bcdc        0x0 start.o
+ .bss           0x4073bcdc        0x0 init_registers.o
+ .bss           0x4073bcdc        0x0 lowlevel_init_v300.o
+ .bss           0x4073bcdc        0x0 ddr_training_impl.o
+ .bss           0x4073bcdc        0x0 ddr_training_console.o
+ .bss           0x4073bcdc        0x0 ddr_training_ctl.o
+ .bss           0x4073bcdc        0x0 ddr_training_boot.o
+ .bss           0x4073bcdc        0x0 ddr_training_custom.o
+ .bss           0x4073bcdc        0x0 uart.o
+ .bss           0x4073bcdc        0x0 div0.o
+ .bss           0x4073bcdc        0x0 emmc_boot.o
+ .bss           0x4073bcdc        0x0 image_data.o
+ .bss           0x4073bcdc        0x0 startup.o
+ .bss           0x4073bcdc        0x0 reset.o
+                0x4073bcdc                __bss_end = .
+                0x4073bcdc                _end = .
+Address of section .text set to 0x40700000
+LOAD start.o
+LOAD lowlevel_init_v300.o
+LOAD init_registers.o
+LOAD uart.o
+LOAD ddr_training_impl.o
+LOAD ddr_training_ctl.o
+LOAD ddr_training_boot.o
+LOAD ddr_training_custom.o
+LOAD ddr_training_console.o
+LOAD startup.o
+LOAD image_data.o
+LOAD reset.o
+LOAD emmc_boot.o
+LOAD div0.o
+OUTPUT(u-boot-hi3516ev200.elf elf32-littlearm)
+
+.bss.relate_reg
+                0x4073bcdc       0x38
+ .bss.relate_reg
+                0x4073bcdc       0x38 ddr_training_custom.o
+
+.bss.hw_blk_total_num
+                0x4073bd14        0x4
+ .bss.hw_blk_total_num
+                0x4073bd14        0x4 startup.o
+                0x4073bd14                hw_blk_total_num
+
+.bss.hw_dec_cur_blk
+                0x4073bd18        0x4
+ .bss.hw_dec_cur_blk
+                0x4073bd18        0x4 startup.o
+                0x4073bd18                hw_dec_cur_blk
+
+.bss.hw_dec_eop
+                0x4073bd1c        0x4
+ .bss.hw_dec_eop
+                0x4073bd1c        0x4 startup.o
+                0x4073bd1c                hw_dec_eop
+
+.bss.hw_dec_sop
+                0x4073bd20        0x4
+ .bss.hw_dec_sop
+                0x4073bd20        0x4 startup.o
+                0x4073bd20                hw_dec_sop
+
+.bss.hw_dec_type
+                0x4073bd24        0x4
+ .bss.hw_dec_type
+                0x4073bd24        0x4 startup.o
+                0x4073bd24                hw_dec_type
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x1d start.o
+ .ARM.attributes
+                0x0000001d       0x2f init_registers.o
+ .ARM.attributes
+                0x0000004c       0x2f lowlevel_init_v300.o
+ .ARM.attributes
+                0x0000007b       0x2f ddr_training_impl.o
+ .ARM.attributes
+                0x000000aa       0x2f ddr_training_console.o
+ .ARM.attributes
+                0x000000d9       0x2f ddr_training_ctl.o
+ .ARM.attributes
+                0x00000108       0x2f ddr_training_boot.o
+ .ARM.attributes
+                0x00000137       0x2f ddr_training_custom.o
+ .ARM.attributes
+                0x00000166       0x1d uart.o
+ .ARM.attributes
+                0x00000183       0x2f div0.o
+ .ARM.attributes
+                0x000001b2       0x2f emmc_boot.o
+ .ARM.attributes
+                0x000001e1       0x1d image_data.o
+ .ARM.attributes
+                0x000001fe       0x2f startup.o
+ .ARM.attributes
+                0x0000022d       0x1d reset.o
+
+.comment        0x00000000       0x2b
+ .comment       0x00000000       0x2b init_registers.o
+                                 0x2c (size before relaxing)
+ .comment       0x0000002b       0x2c lowlevel_init_v300.o
+ .comment       0x0000002b       0x2c ddr_training_impl.o
+ .comment       0x0000002b       0x2c ddr_training_console.o
+ .comment       0x0000002b       0x2c ddr_training_ctl.o
+ .comment       0x0000002b       0x2c ddr_training_boot.o
+ .comment       0x0000002b       0x2c ddr_training_custom.o
+ .comment       0x0000002b       0x2c div0.o
+ .comment       0x0000002b       0x2c emmc_boot.o
+ .comment       0x0000002b       0x2c startup.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 init_registers.o
+ .note.GNU-stack
+                0x00000000        0x0 lowlevel_init_v300.o
+ .note.GNU-stack
+                0x00000000        0x0 ddr_training_impl.o
+ .note.GNU-stack
+                0x00000000        0x0 ddr_training_console.o
+ .note.GNU-stack
+                0x00000000        0x0 ddr_training_ctl.o
+ .note.GNU-stack
+                0x00000000        0x0 ddr_training_boot.o
+ .note.GNU-stack
+                0x00000000        0x0 ddr_training_custom.o
+ .note.GNU-stack
+                0x00000000        0x0 div0.o
+ .note.GNU-stack
+                0x00000000        0x0 emmc_boot.o
+ .note.GNU-stack
+                0x00000000        0x0 startup.o
+
+.debug_line     0x00000000     0x1ddd
+ .debug_line    0x00000000       0xff start.o
+ .debug_line    0x000000ff       0xd5 init_registers.o
+ .debug_line    0x000001d4      0x417 lowlevel_init_v300.o
+ .debug_line    0x000005eb      0xca6 ddr_training_impl.o
+ .debug_line    0x00001291       0x48 ddr_training_console.o
+ .debug_line    0x000012d9      0x287 ddr_training_ctl.o
+ .debug_line    0x00001560      0x153 ddr_training_boot.o
+ .debug_line    0x000016b3      0x23f ddr_training_custom.o
+ .debug_line    0x000018f2       0x6c uart.o
+ .debug_line    0x0000195e       0x37 div0.o
+ .debug_line    0x00001995       0xc1 emmc_boot.o
+ .debug_line    0x00001a56      0x34c startup.o
+ .debug_line    0x00001da2       0x3b reset.o
+
+.debug_info     0x00000000     0x6d53
+ .debug_info    0x00000000       0x26 start.o
+ .debug_info    0x00000026      0x371 init_registers.o
+ .debug_info    0x00000397     0x1138 lowlevel_init_v300.o
+ .debug_info    0x000014cf     0x357b ddr_training_impl.o
+ .debug_info    0x00004a4a       0x89 ddr_training_console.o
+ .debug_info    0x00004ad3      0x7ad ddr_training_ctl.o
+ .debug_info    0x00005280      0x418 ddr_training_boot.o
+ .debug_info    0x00005698      0x20c ddr_training_custom.o
+ .debug_info    0x000058a4       0x26 uart.o
+ .debug_info    0x000058ca       0x57 div0.o
+ .debug_info    0x00005921      0x382 emmc_boot.o
+ .debug_info    0x00005ca3     0x108a startup.o
+ .debug_info    0x00006d2d       0x26 reset.o
+
+.debug_abbrev   0x00000000     0x142f
+ .debug_abbrev  0x00000000       0x14 start.o
+ .debug_abbrev  0x00000014      0x1d2 init_registers.o
+ .debug_abbrev  0x000001e6      0x356 lowlevel_init_v300.o
+ .debug_abbrev  0x0000053c      0x48f ddr_training_impl.o
+ .debug_abbrev  0x000009cb       0x7a ddr_training_console.o
+ .debug_abbrev  0x00000a45      0x1d1 ddr_training_ctl.o
+ .debug_abbrev  0x00000c16      0x128 ddr_training_boot.o
+ .debug_abbrev  0x00000d3e      0x110 ddr_training_custom.o
+ .debug_abbrev  0x00000e4e       0x14 uart.o
+ .debug_abbrev  0x00000e62       0x5e div0.o
+ .debug_abbrev  0x00000ec0      0x19a emmc_boot.o
+ .debug_abbrev  0x0000105a      0x3c1 startup.o
+ .debug_abbrev  0x0000141b       0x14 reset.o
+
+.debug_aranges  0x00000000      0x450
+ .debug_aranges
+                0x00000000       0x20 start.o
+ .debug_aranges
+                0x00000020       0x30 init_registers.o
+ .debug_aranges
+                0x00000050       0x50 lowlevel_init_v300.o
+ .debug_aranges
+                0x000000a0      0x188 ddr_training_impl.o
+ .debug_aranges
+                0x00000228       0x20 ddr_training_console.o
+ .debug_aranges
+                0x00000248       0x50 ddr_training_ctl.o
+ .debug_aranges
+                0x00000298       0x40 ddr_training_boot.o
+ .debug_aranges
+                0x000002d8       0x48 ddr_training_custom.o
+ .debug_aranges
+                0x00000320       0x20 uart.o
+ .debug_aranges
+                0x00000340       0x20 div0.o
+ .debug_aranges
+                0x00000360       0x30 emmc_boot.o
+ .debug_aranges
+                0x00000390       0xa0 startup.o
+ .debug_aranges
+                0x00000430       0x20 reset.o
+
+.debug_str      0x00000000     0x1773
+ .debug_str     0x00000000       0xca start.o
+ .debug_str     0x000000ca      0x182 init_registers.o
+                                0x27a (size before relaxing)
+ .debug_str     0x0000024c      0x2ed lowlevel_init_v300.o
+                                0x4d4 (size before relaxing)
+ .debug_str     0x00000539      0xae8 ddr_training_impl.o
+                                0xe10 (size before relaxing)
+ .debug_str     0x00001021       0x49 ddr_training_console.o
+                                0x1da (size before relaxing)
+ .debug_str     0x0000106a       0xb9 ddr_training_ctl.o
+                                0x5fc (size before relaxing)
+ .debug_str     0x00001123       0x4d ddr_training_boot.o
+                                0x3b7 (size before relaxing)
+ .debug_str     0x00001170       0x5c ddr_training_custom.o
+                                0x337 (size before relaxing)
+ .debug_str     0x000011cc        0x7 uart.o
+                                 0xc9 (size before relaxing)
+ .debug_str     0x000011d3       0x13 div0.o
+                                0x189 (size before relaxing)
+ .debug_str     0x000011e6       0xba emmc_boot.o
+                                0x258 (size before relaxing)
+ .debug_str     0x000012a0      0x4cb startup.o
+                                0x6d1 (size before relaxing)
+ .debug_str     0x0000176b        0x8 reset.o
+                                 0xca (size before relaxing)
+
+.debug_loc      0x00000000     0x4c57
+ .debug_loc     0x00000000      0x29a init_registers.o
+ .debug_loc     0x0000029a      0xd33 lowlevel_init_v300.o
+ .debug_loc     0x00000fcd     0x3088 ddr_training_impl.o
+ .debug_loc     0x00004055       0x21 ddr_training_console.o
+ .debug_loc     0x00004076      0x243 ddr_training_ctl.o
+ .debug_loc     0x000042b9       0x19 ddr_training_custom.o
+ .debug_loc     0x000042d2      0x31d emmc_boot.o
+ .debug_loc     0x000045ef      0x668 startup.o
+
+.debug_ranges   0x00000000      0xab8
+ .debug_ranges  0x00000000       0x38 init_registers.o
+ .debug_ranges  0x00000038      0x2b8 lowlevel_init_v300.o
+ .debug_ranges  0x000002f0      0x530 ddr_training_impl.o
+ .debug_ranges  0x00000820       0x10 ddr_training_console.o
+ .debug_ranges  0x00000830       0x40 ddr_training_ctl.o
+ .debug_ranges  0x00000870       0x30 ddr_training_boot.o
+ .debug_ranges  0x000008a0       0x38 ddr_training_custom.o
+ .debug_ranges  0x000008d8       0x10 div0.o
+ .debug_ranges  0x000008e8       0xa8 emmc_boot.o
+ .debug_ranges  0x00000990      0x128 startup.o
+
+.debug_frame    0x00000000      0xaf8
+ .debug_frame   0x00000000       0x64 init_registers.o
+ .debug_frame   0x00000064       0xc4 lowlevel_init_v300.o
+ .debug_frame   0x00000128      0x5e0 ddr_training_impl.o
+ .debug_frame   0x00000708       0x20 ddr_training_console.o
+ .debug_frame   0x00000728       0xbc ddr_training_ctl.o
+ .debug_frame   0x000007e4       0x70 ddr_training_boot.o
+ .debug_frame   0x00000854       0x70 ddr_training_custom.o
+ .debug_frame   0x000008c4       0x20 div0.o
+ .debug_frame   0x000008e4       0x50 emmc_boot.o
+ .debug_frame   0x00000934      0x1c4 startup.o

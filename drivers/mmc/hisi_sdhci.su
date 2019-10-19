@@ -1,0 +1,12 @@
+hisi_hi3516ev200.c:165:13:hisi_mmc_priv_init	0	static
+hisi_hi3516ev200.c:185:13:hisi_set_drv_str	4	static
+hisi_hi3516ev200.c:255:13:hisi_mmc_set_ioconfig	32	static
+hisi_sdhci.c:416:13:print_mmcinfo	16	static
+hisi_sdhci.c:86:13:hisi_wait_drv_dll_lock.isra.12	16	static
+hisi_sdhci.c:117:13:hisi_wait_sampl_dll_slave_ready.isra.13	16	static
+hisi_sdhci.c:226:13:hisi_select_sampl_phase	8	static
+hisi_sdhci.c:136:12:hisi_mmc_set_clk	56	static
+hisi_sdhci.c:252:12:hisi_mmc_exec_tuning	40	static
+hisi_sdhci.c:360:5:hisi_sdhci_add_port	24	static
+hisi_sdhci.c:445:5:hisi_mmc_init	8	static
+hisi_sdhci.c:468:6:printf_mmc	8	static

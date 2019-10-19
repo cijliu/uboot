@@ -1,0 +1,2 @@
+virt-dt.c:29:5:armv7_apply_memory_carveout	0	static
+virt-dt.c:57:5:psci_update_dt	16	static

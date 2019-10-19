@@ -1,0 +1,2 @@
+mtd_uboot.c:45:5:mtd_arg_off	24	static
+mtd_uboot.c:61:5:mtd_arg_off_size	56	static
