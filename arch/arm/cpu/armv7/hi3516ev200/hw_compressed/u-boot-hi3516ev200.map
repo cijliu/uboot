@@ -357,92 +357,92 @@ Linker script and memory map
  .iplt          0x40704794        0x0 start.o
                 0x40704794                . = ALIGN (0x4)
 
-.image          0x407047a0    0x3748d
+.image          0x407047a0    0x37565
  *(.image)
- .image         0x407047a0    0x3748d image_data.o
+ .image         0x407047a0    0x37565 image_data.o
                 0x407047a0                input_data
-                0x4073bc2d                input_data_end
-                0x4073bc30                . = ALIGN (0x4)
+                0x4073bd05                input_data_end
+                0x4073bd08                . = ALIGN (0x4)
 
-.rodata         0x4073bc30       0xac
+.rodata         0x4073bd08       0xac
  *(SORT(.rodata*))
  .rodata.IMAGE_ENTRY
-                0x4073bc30        0x4 startup.o
-                0x4073bc30                IMAGE_ENTRY
+                0x4073bd08        0x4 startup.o
+                0x4073bd08                IMAGE_ENTRY
  .rodata.do_bad_error.str1.1
-                0x4073bc34        0xc startup.o
+                0x4073bd0c        0xc startup.o
  .rodata.do_bad_fiq.str1.1
-                0x4073bc40       0x1d startup.o
+                0x4073bd18       0x1d startup.o
  .rodata.do_bad_irq.str1.1
-                0x4073bc5d       0x18 startup.o
+                0x4073bd35       0x18 startup.o
  .rodata.do_bad_sync.str1.1
-                0x4073bc75       0x25 startup.o
+                0x4073bd4d       0x25 startup.o
  .rodata.do_error.str1.1
-                0x4073bc9a       0x25 startup.o
+                0x4073bd72       0x25 startup.o
                                   0x8 (size before relaxing)
  .rodata.do_fiq.str1.1
-                0x4073bc9a       0x25 startup.o
+                0x4073bd72       0x25 startup.o
                                  0x19 (size before relaxing)
  .rodata.do_irq.str1.1
-                0x4073bc9a       0x25 startup.o
+                0x4073bd72       0x25 startup.o
                                  0x14 (size before relaxing)
  .rodata.do_sync.str1.1
-                0x4073bc9a       0x25 startup.o
+                0x4073bd72       0x25 startup.o
                                   0xd (size before relaxing)
  .rodata.hang.str1.1
-                0x4073bc9a       0x2a startup.o
+                0x4073bd72       0x2a startup.o
  .rodata.start_armboot.str1.1
-                0x4073bcc4       0x18 startup.o
+                0x4073bd9c       0x18 startup.o
 
-.rel.dyn        0x4073bcdc        0x0
- .rel.iplt      0x4073bcdc        0x0 start.o
-                0x4073bcdc                . = ALIGN (0x4)
+.rel.dyn        0x4073bdb4        0x0
+ .rel.iplt      0x4073bdb4        0x0 start.o
+                0x4073bdb4                . = ALIGN (0x4)
 
-.data           0x4073bcdc        0x0
+.data           0x4073bdb4        0x0
  *(.data)
- .data          0x4073bcdc        0x0 start.o
- .data          0x4073bcdc        0x0 init_registers.o
- .data          0x4073bcdc        0x0 lowlevel_init_v300.o
- .data          0x4073bcdc        0x0 ddr_training_impl.o
- .data          0x4073bcdc        0x0 ddr_training_console.o
- .data          0x4073bcdc        0x0 ddr_training_ctl.o
- .data          0x4073bcdc        0x0 ddr_training_boot.o
- .data          0x4073bcdc        0x0 ddr_training_custom.o
- .data          0x4073bcdc        0x0 uart.o
- .data          0x4073bcdc        0x0 div0.o
- .data          0x4073bcdc        0x0 emmc_boot.o
- .data          0x4073bcdc        0x0 image_data.o
- .data          0x4073bcdc        0x0 startup.o
- .data          0x4073bcdc        0x0 reset.o
+ .data          0x4073bdb4        0x0 start.o
+ .data          0x4073bdb4        0x0 init_registers.o
+ .data          0x4073bdb4        0x0 lowlevel_init_v300.o
+ .data          0x4073bdb4        0x0 ddr_training_impl.o
+ .data          0x4073bdb4        0x0 ddr_training_console.o
+ .data          0x4073bdb4        0x0 ddr_training_ctl.o
+ .data          0x4073bdb4        0x0 ddr_training_boot.o
+ .data          0x4073bdb4        0x0 ddr_training_custom.o
+ .data          0x4073bdb4        0x0 uart.o
+ .data          0x4073bdb4        0x0 div0.o
+ .data          0x4073bdb4        0x0 emmc_boot.o
+ .data          0x4073bdb4        0x0 image_data.o
+ .data          0x4073bdb4        0x0 startup.o
+ .data          0x4073bdb4        0x0 reset.o
 
-.igot.plt       0x4073bcdc        0x0
- .igot.plt      0x4073bcdc        0x0 start.o
-                0x4073bcdc                . = ALIGN (0x4)
+.igot.plt       0x4073bdb4        0x0
+ .igot.plt      0x4073bdb4        0x0 start.o
+                0x4073bdb4                . = ALIGN (0x4)
 
 .got
  *(.got)
-                0x4073bcdc                . = ALIGN (0x4)
-                0x4073bcdc                __image_copy_end = .
-                0x4073bcdc                __bss_start = .
+                0x4073bdb4                . = ALIGN (0x4)
+                0x4073bdb4                __image_copy_end = .
+                0x4073bdb4                __bss_start = .
 
-.bss            0x4073bcdc        0x0
+.bss            0x4073bdb4        0x0
  *(.bss)
- .bss           0x4073bcdc        0x0 start.o
- .bss           0x4073bcdc        0x0 init_registers.o
- .bss           0x4073bcdc        0x0 lowlevel_init_v300.o
- .bss           0x4073bcdc        0x0 ddr_training_impl.o
- .bss           0x4073bcdc        0x0 ddr_training_console.o
- .bss           0x4073bcdc        0x0 ddr_training_ctl.o
- .bss           0x4073bcdc        0x0 ddr_training_boot.o
- .bss           0x4073bcdc        0x0 ddr_training_custom.o
- .bss           0x4073bcdc        0x0 uart.o
- .bss           0x4073bcdc        0x0 div0.o
- .bss           0x4073bcdc        0x0 emmc_boot.o
- .bss           0x4073bcdc        0x0 image_data.o
- .bss           0x4073bcdc        0x0 startup.o
- .bss           0x4073bcdc        0x0 reset.o
-                0x4073bcdc                __bss_end = .
-                0x4073bcdc                _end = .
+ .bss           0x4073bdb4        0x0 start.o
+ .bss           0x4073bdb4        0x0 init_registers.o
+ .bss           0x4073bdb4        0x0 lowlevel_init_v300.o
+ .bss           0x4073bdb4        0x0 ddr_training_impl.o
+ .bss           0x4073bdb4        0x0 ddr_training_console.o
+ .bss           0x4073bdb4        0x0 ddr_training_ctl.o
+ .bss           0x4073bdb4        0x0 ddr_training_boot.o
+ .bss           0x4073bdb4        0x0 ddr_training_custom.o
+ .bss           0x4073bdb4        0x0 uart.o
+ .bss           0x4073bdb4        0x0 div0.o
+ .bss           0x4073bdb4        0x0 emmc_boot.o
+ .bss           0x4073bdb4        0x0 image_data.o
+ .bss           0x4073bdb4        0x0 startup.o
+ .bss           0x4073bdb4        0x0 reset.o
+                0x4073bdb4                __bss_end = .
+                0x4073bdb4                _end = .
 Address of section .text set to 0x40700000
 LOAD start.o
 LOAD lowlevel_init_v300.o
@@ -461,39 +461,39 @@ LOAD div0.o
 OUTPUT(u-boot-hi3516ev200.elf elf32-littlearm)
 
 .bss.relate_reg
-                0x4073bcdc       0x38
+                0x4073bdb4       0x38
  .bss.relate_reg
-                0x4073bcdc       0x38 ddr_training_custom.o
+                0x4073bdb4       0x38 ddr_training_custom.o
 
 .bss.hw_blk_total_num
-                0x4073bd14        0x4
+                0x4073bdec        0x4
  .bss.hw_blk_total_num
-                0x4073bd14        0x4 startup.o
-                0x4073bd14                hw_blk_total_num
+                0x4073bdec        0x4 startup.o
+                0x4073bdec                hw_blk_total_num
 
 .bss.hw_dec_cur_blk
-                0x4073bd18        0x4
+                0x4073bdf0        0x4
  .bss.hw_dec_cur_blk
-                0x4073bd18        0x4 startup.o
-                0x4073bd18                hw_dec_cur_blk
+                0x4073bdf0        0x4 startup.o
+                0x4073bdf0                hw_dec_cur_blk
 
 .bss.hw_dec_eop
-                0x4073bd1c        0x4
+                0x4073bdf4        0x4
  .bss.hw_dec_eop
-                0x4073bd1c        0x4 startup.o
-                0x4073bd1c                hw_dec_eop
+                0x4073bdf4        0x4 startup.o
+                0x4073bdf4                hw_dec_eop
 
 .bss.hw_dec_sop
-                0x4073bd20        0x4
+                0x4073bdf8        0x4
  .bss.hw_dec_sop
-                0x4073bd20        0x4 startup.o
-                0x4073bd20                hw_dec_sop
+                0x4073bdf8        0x4 startup.o
+                0x4073bdf8                hw_dec_sop
 
 .bss.hw_dec_type
-                0x4073bd24        0x4
+                0x4073bdfc        0x4
  .bss.hw_dec_type
-                0x4073bd24        0x4 startup.o
-                0x4073bd24                hw_dec_type
+                0x4073bdfc        0x4 startup.o
+                0x4073bdfc                hw_dec_type
 
 .ARM.attributes
                 0x00000000       0x2b
