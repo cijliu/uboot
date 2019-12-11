@@ -174,7 +174,7 @@
 
 /* Assume we boot with root on the seventh partition of eMMC */
 #define CONFIG_BOOTARGS 	"mem=40M console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=jffs2 rw mtdparts=hi_sfc:512K(boot),5120K(kernel),10752K(rootfs)"
-#define CONFIG_BOOTCOMMAND 	"sf probe 0;sf read 0x42000000 0x40000 0x340000;bootm 0x42000000"
+#define CONFIG_BOOTCOMMAND 	"sf probe 0;sf read 0x42000000 0x80000 0x500000;bootm 0x42000000"
 #define CONFIG_BOOTDELAY	2
 #define CONFIG_SYS_USB_XHCI_MAX_ROOT_PORTS 2
 #define BOOT_TARGET_DEVICES(func) \
