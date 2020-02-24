@@ -843,7 +843,7 @@ Discarded input sections
  .debug_abbrev  0x00000000      0x22b drivers/spi/built-in.o
  .debug_line    0x00000000      0x185 drivers/spi/built-in.o
  .debug_frame   0x00000000       0x4c drivers/spi/built-in.o
- .debug_str     0x00000000      0xb4d drivers/spi/built-in.o
+ .debug_str     0x00000000      0xad8 drivers/spi/built-in.o
  .debug_loc     0x00000000      0x10f drivers/spi/built-in.o
  .debug_ranges  0x00000000       0x18 drivers/spi/built-in.o
  .text          0x00000000        0x0 drivers/usb/gadget/hiudc3/built-in.o
@@ -1308,7 +1308,7 @@ Discarded input sections
  .debug_abbrev  0x00000000      0x5f2 product/hiupdate/built-in.o
  .debug_line    0x00000000      0x5e4 product/hiupdate/built-in.o
  .debug_frame   0x00000000      0x250 product/hiupdate/built-in.o
- .debug_str     0x00000000     0x2050 product/hiupdate/built-in.o
+ .debug_str     0x00000000     0x1fdb product/hiupdate/built-in.o
  .debug_loc     0x00000000     0x11de product/hiupdate/built-in.o
  .debug_ranges  0x00000000      0x188 product/hiupdate/built-in.o
  .text          0x00000000        0x0 test/dm/built-in.o
@@ -1335,7 +1335,7 @@ Discarded input sections
                 0x00000000       0x38 arch/arm/lib/eabi_compat.o
  .debug_ranges  0x00000000       0x28 arch/arm/lib/eabi_compat.o
  .debug_line    0x00000000      0x19d arch/arm/lib/eabi_compat.o
- .debug_str     0x00000000      0xb29 arch/arm/lib/eabi_compat.o
+ .debug_str     0x00000000      0xab4 arch/arm/lib/eabi_compat.o
  .comment       0x00000000       0x2c arch/arm/lib/eabi_compat.o
  .note.GNU-stack
                 0x00000000        0x0 arch/arm/lib/eabi_compat.o
@@ -5055,7 +5055,7 @@ Address of section .text set to 0x40800000
                 0x4084b108        0x4 LONG 0x1d1071c
                 0x4084b10c                . = ALIGN (0x4)
 
-.rodata         0x4084b110    0x10c45
+.rodata         0x4084b110    0x10c48
  *(SORT(.rodata*))
  .rodata.location.9294
                 0x4084b110       0x30 common/built-in.o
@@ -5433,1025 +5433,1025 @@ Address of section .text set to 0x40800000
  .rodata.debug_register_dump.str1.1
                 0x4084e50a       0x20 drivers/mtd/built-in.o
  .rodata.default_environment
-                0x4084e52a      0x154 common/built-in.o
+                0x4084e52a      0x157 common/built-in.o
                 0x4084e52a                default_environment
  .rodata.dev_print.str1.1
-                0x4084e67e      0x14d disk/built-in.o
+                0x4084e681      0x14d disk/built-in.o
                                 0x15e (size before relaxing)
  .rodata.device_bind_common.isra.0.str1.1
-                0x4084e7cb       0x5b drivers/built-in.o
+                0x4084e7ce       0x5b drivers/built-in.o
  .rodata.device_probe.str1.1
-                0x4084e826       0x30 drivers/built-in.o
+                0x4084e829       0x30 drivers/built-in.o
  .rodata.device_remove.str1.1
-                0x4084e856       0x98 drivers/built-in.o
+                0x4084e859       0x98 drivers/built-in.o
  .rodata.dhcp_extended.str1.1
-                0x4084e8ee       0x37 net/built-in.o
+                0x4084e8f1       0x37 net/built-in.o
                                  0x3f (size before relaxing)
  .rodata.dhcp_handler.str1.1
-                0x4084e925       0x41 net/built-in.o
+                0x4084e928       0x41 net/built-in.o
                                  0x4a (size before relaxing)
  .rodata.dhcp_process_options.str1.1
-                0x4084e966       0x78 net/built-in.o
+                0x4084e969       0x78 net/built-in.o
  .rodata.digits.7776
-                0x4084e9de       0x10 lib/built-in.o
+                0x4084e9e1       0x10 lib/built-in.o
  .rodata.display_options.str1.1
-                0x4084e9ee        0x7 lib/built-in.o
+                0x4084e9f1        0x7 lib/built-in.o
  .rodata.dm_dump_all.str1.1
-                0x4084e9f5       0x1c drivers/built-in.o
+                0x4084e9f8       0x1c drivers/built-in.o
                                  0x46 (size before relaxing)
  .rodata.dm_dump_uclass.str1.1
-                0x4084ea11       0x32 drivers/built-in.o
+                0x4084ea14       0x32 drivers/built-in.o
                                  0x34 (size before relaxing)
  .rodata.dm_init.str1.1
-                0x4084ea43       0x25 drivers/built-in.o
+                0x4084ea46       0x25 drivers/built-in.o
  .rodata.dm_root.str1.1
-                0x4084ea68       0x25 drivers/built-in.o
+                0x4084ea6b       0x25 drivers/built-in.o
  .rodata.dm_scan_platdata.str1.1
-                0x4084ea8d       0x1d drivers/built-in.o
+                0x4084ea90       0x1d drivers/built-in.o
  .rodata.do_bdinfo.str1.1
-                0x4084eaaa       0xfa cmd/built-in.o
+                0x4084eaad       0xfa cmd/built-in.o
  .rodata.do_bootd.str1.1
-                0x4084eba4        0x8 cmd/built-in.o
+                0x4084eba7        0x8 cmd/built-in.o
  .rodata.do_bootelf.str1.1
-                0x4084ebac       0x52 cmd/built-in.o
+                0x4084ebaf       0x52 cmd/built-in.o
                                  0x5c (size before relaxing)
  .rodata.do_bootm.str1.1
-                0x4084ebfe       0x2a cmd/built-in.o
+                0x4084ec01       0x2a cmd/built-in.o
  .rodata.do_bootm_netbsd.str1.1
-                0x4084ec28       0x49 common/built-in.o
+                0x4084ec2b       0x49 common/built-in.o
                                  0x4a (size before relaxing)
  .rodata.do_bootm_plan9.str1.1
-                0x4084ec71       0x43 common/built-in.o
+                0x4084ec74       0x43 common/built-in.o
                                  0x4c (size before relaxing)
  .rodata.do_bootm_qnxelf.str1.1
-                0x4084ecb4        0x4 common/built-in.o
+                0x4084ecb7        0x4 common/built-in.o
  .rodata.do_bootm_rtems.str1.1
-                0x4084ecb4       0x39 common/built-in.o
+                0x4084ecb7       0x39 common/built-in.o
  .rodata.do_bootm_standalone.str1.1
-                0x4084eced       0x16 common/built-in.o
+                0x4084ecf0       0x16 common/built-in.o
  .rodata.do_bootm_states.str1.1
-                0x4084eced      0x287 common/built-in.o
+                0x4084ecf0      0x287 common/built-in.o
                                 0x2ff (size before relaxing)
  .rodata.do_bootvx.str1.1
-                0x4084ef74      0x1b9 cmd/built-in.o
+                0x4084ef77      0x1b9 cmd/built-in.o
                                 0x1d0 (size before relaxing)
  .rodata.do_bootvx_fdt.str1.1
-                0x4084f12d       0x20 common/built-in.o
+                0x4084f130       0x20 common/built-in.o
                                  0x37 (size before relaxing)
  .rodata.do_coninfo.str1.1
-                0x4084f14d       0x2c cmd/built-in.o
+                0x4084f150       0x2c cmd/built-in.o
                                  0x30 (size before relaxing)
  .rodata.do_data_abort.str1.1
-                0x4084f179        0xc arch/arm/lib/built-in.o
+                0x4084f17c        0xc arch/arm/lib/built-in.o
  .rodata.do_dcache.str1.1
-                0x4084f185       0x21 cmd/built-in.o
+                0x4084f188       0x21 cmd/built-in.o
  .rodata.do_ddr_training.str1.1
-                0x4084f1a6       0xbe drivers/ddr/hisilicon/hi3516ev200/built-in.o
+                0x4084f1a9       0xbe drivers/ddr/hisilicon/hi3516ev200/built-in.o
                                  0xc6 (size before relaxing)
  .rodata.do_echo.str1.1
-                0x4084f264        0x3 cmd/built-in.o
+                0x4084f267        0x3 cmd/built-in.o
  .rodata.do_env_default.str1.1
-                0x4084f267       0x25 cmd/built-in.o
+                0x4084f26a       0x25 cmd/built-in.o
  .rodata.do_env_edit.part.2.str1.1
-                0x4084f28c        0x7 cmd/built-in.o
+                0x4084f28f        0x7 cmd/built-in.o
                                   0xa (size before relaxing)
  .rodata.do_env_export.str1.1
-                0x4084f293       0x41 cmd/built-in.o
+                0x4084f296       0x41 cmd/built-in.o
                                  0x4a (size before relaxing)
  .rodata.do_env_import.str1.1
-                0x4084f2d4      0x152 cmd/built-in.o
+                0x4084f2d7      0x152 cmd/built-in.o
  .rodata.do_env_print.str1.1
-                0x4084f426       0x3d cmd/built-in.o
+                0x4084f429       0x3d cmd/built-in.o
  .rodata.do_env_save.str1.1
-                0x4084f463       0x1d cmd/built-in.o
+                0x4084f466       0x1d cmd/built-in.o
  .rodata.do_fat_fsinfo.str1.1
-                0x4084f480       0x56 cmd/built-in.o
+                0x4084f483       0x56 cmd/built-in.o
  .rodata.do_fat_read_at.str1.1
-                0x4084f4d6       0x82 fs/built-in.o
+                0x4084f4d9       0x82 fs/built-in.o
                                  0x83 (size before relaxing)
  .rodata.do_fiq.str1.1
-                0x4084f558       0x18 arch/arm/lib/built-in.o
+                0x4084f55b       0x18 arch/arm/lib/built-in.o
  .rodata.do_get_fat.str1.1
-                0x4084f570        0x8 cmd/built-in.o
+                0x4084f573        0x8 cmd/built-in.o
  .rodata.do_get_tftp.str1.1
-                0x4084f570        0x5 cmd/built-in.o
+                0x4084f573        0x5 cmd/built-in.o
  .rodata.do_getinfo.str1.1
-                0x4084f570       0xdd cmd/built-in.o
+                0x4084f573       0xdd cmd/built-in.o
                                  0xf0 (size before relaxing)
  .rodata.do_go.str1.1
-                0x4084f64d       0x4f cmd/built-in.o
+                0x4084f650       0x4f cmd/built-in.o
  .rodata.do_icache.str1.1
-                0x4084f69c       0x1d cmd/built-in.o
+                0x4084f69f       0x1d cmd/built-in.o
                                  0x20 (size before relaxing)
  .rodata.do_imgextract.str1.1
-                0x4084f6b9      0x1af cmd/built-in.o
+                0x4084f6bc      0x1af cmd/built-in.o
                                 0x296 (size before relaxing)
  .rodata.do_irq.str1.1
-                0x4084f868       0x18 arch/arm/lib/built-in.o
+                0x4084f86b       0x18 arch/arm/lib/built-in.o
                                  0x13 (size before relaxing)
  .rodata.do_itest.str1.1
-                0x4084f868       0x1e cmd/built-in.o
+                0x4084f86b       0x1e cmd/built-in.o
  .rodata.do_load.str1.1
-                0x4084f886       0x39 fs/built-in.o
+                0x4084f889       0x39 fs/built-in.o
                                  0x5b (size before relaxing)
  .rodata.do_load_serial.str1.1
-                0x4084f8bf       0x6b cmd/built-in.o
+                0x4084f8c2       0x6b cmd/built-in.o
  .rodata.do_load_serial_bin.str1.1
-                0x4084f92a      0x159 cmd/built-in.o
+                0x4084f92d      0x159 cmd/built-in.o
  .rodata.do_ls.str1.1
-                0x4084fa83        0x2 fs/built-in.o
+                0x4084fa86        0x2 fs/built-in.o
  .rodata.do_mem_base.str1.1
-                0x4084fa83       0x17 cmd/built-in.o
+                0x4084fa86       0x17 cmd/built-in.o
  .rodata.do_mem_cmp.str1.1
-                0x4084fa9a       0x6e cmd/built-in.o
+                0x4084fa9d       0x6e cmd/built-in.o
                                  0x73 (size before relaxing)
  .rodata.do_mem_cp.str1.1
-                0x4084fb08       0x11 cmd/built-in.o
+                0x4084fb0b       0x11 cmd/built-in.o
  .rodata.do_mem_crc.str1.1
-                0x4084fb19        0x6 cmd/built-in.o
+                0x4084fb1c        0x6 cmd/built-in.o
  .rodata.do_mii.str1.1
-                0x4084fb1f      0x294 cmd/built-in.o
+                0x4084fb22      0x294 cmd/built-in.o
                                 0x2b0 (size before relaxing)
  .rodata.do_mmc_boot_resize.str1.1
-                0x4084fdb3       0x82 cmd/built-in.o
+                0x4084fdb6       0x82 cmd/built-in.o
  .rodata.do_mmc_bootbus.str1.1
-                0x4084fe35       0x24 cmd/built-in.o
+                0x4084fe38       0x24 cmd/built-in.o
  .rodata.do_mmc_dev.str1.1
-                0x4084fe59       0x89 cmd/built-in.o
+                0x4084fe5c       0x89 cmd/built-in.o
  .rodata.do_mmc_erase.str1.1
-                0x4084fee2       0x67 cmd/built-in.o
+                0x4084fee5       0x67 cmd/built-in.o
  .rodata.do_mmc_hwpartition.str1.1
-                0x4084ff49      0x126 cmd/built-in.o
+                0x4084ff4c      0x126 cmd/built-in.o
                                 0x142 (size before relaxing)
  .rodata.do_mmc_part.str1.1
-                0x4085006f       0x15 cmd/built-in.o
+                0x40850072       0x15 cmd/built-in.o
  .rodata.do_mmc_partconf.str1.1
-                0x40850084       0x26 cmd/built-in.o
+                0x40850087       0x26 cmd/built-in.o
  .rodata.do_mmc_read.str1.1
-                0x408500aa       0x43 cmd/built-in.o
+                0x408500ad       0x43 cmd/built-in.o
  .rodata.do_mmc_rst_func.str1.1
-                0x408500ed       0x40 cmd/built-in.o
+                0x408500f0       0x40 cmd/built-in.o
  .rodata.do_mmc_setdsr.str1.1
-                0x4085012d       0x1d cmd/built-in.o
+                0x40850130       0x1d cmd/built-in.o
  .rodata.do_mmc_write.str1.1
-                0x4085014a       0x90 cmd/built-in.o
+                0x4085014d       0x90 cmd/built-in.o
  .rodata.do_mmcinfo.str1.1
-                0x408501da      0x107 cmd/built-in.o
+                0x408501dd      0x107 cmd/built-in.o
                                 0x159 (size before relaxing)
  .rodata.do_mmcops.str1.1
-                0x408502e1       0x19 cmd/built-in.o
+                0x408502e4       0x19 cmd/built-in.o
  .rodata.do_nand.str1.1
-                0x408502fa      0x693 cmd/built-in.o
+                0x408502fd      0x693 cmd/built-in.o
                                 0x6d7 (size before relaxing)
  .rodata.do_nandboot.str1.1
-                0x4085098d       0xe1 cmd/built-in.o
+                0x40850990       0xe1 cmd/built-in.o
  .rodata.do_not_used.str1.1
-                0x40850a6e        0xa arch/arm/lib/built-in.o
+                0x40850a71        0xa arch/arm/lib/built-in.o
  .rodata.do_part.str1.1
-                0x40850a78       0x16 cmd/built-in.o
+                0x40850a7b       0x16 cmd/built-in.o
                                  0x15 (size before relaxing)
  .rodata.do_part_list.str1.1
-                0x40850a78       0x22 cmd/built-in.o
+                0x40850a7b       0x22 cmd/built-in.o
                                  0x25 (size before relaxing)
  .rodata.do_part_start.str1.1
-                0x40850a9a        0x4 cmd/built-in.o
+                0x40850a9d        0x4 cmd/built-in.o
                                   0x8 (size before relaxing)
  .rodata.do_ping.str1.1
-                0x40850a9e       0x35 cmd/built-in.o
+                0x40850aa1       0x35 cmd/built-in.o
  .rodata.do_prefetch_abort.str1.1
-                0x40850ad3       0x10 arch/arm/lib/built-in.o
+                0x40850ad6       0x10 arch/arm/lib/built-in.o
  .rodata.do_pxe_boot.str1.1
-                0x40850ae3       0x38 cmd/built-in.o
+                0x40850ae6       0x38 cmd/built-in.o
  .rodata.do_pxe_get.str1.1
-                0x40850b1b       0x46 cmd/built-in.o
+                0x40850b1e       0x46 cmd/built-in.o
  .rodata.do_reset.str1.1
-                0x40850b61        0xf arch/arm/lib/built-in.o
+                0x40850b64        0xf arch/arm/lib/built-in.o
  .rodata.do_run.str1.1
-                0x40850b70       0x1c common/built-in.o
+                0x40850b73       0x1c common/built-in.o
  .rodata.do_setexpr.str1.1
-                0x40850b70       0x11 cmd/built-in.o
+                0x40850b73       0x11 cmd/built-in.o
                                  0x15 (size before relaxing)
  .rodata.do_showvar.str1.1
-                0x40850b81        0xc common/built-in.o
+                0x40850b84        0xc common/built-in.o
                                  0x2f (size before relaxing)
  .rodata.do_size.str1.1
-                0x40850b8d        0x9 fs/built-in.o
+                0x40850b90        0x9 fs/built-in.o
  .rodata.do_software_interrupt.str1.1
-                0x40850b8d       0x14 arch/arm/lib/built-in.o
+                0x40850b90       0x14 arch/arm/lib/built-in.o
  .rodata.do_source.str1.1
-                0x40850ba1       0x1e cmd/built-in.o
+                0x40850ba4       0x1e cmd/built-in.o
  .rodata.do_spi_flash.str1.1
-                0x40850bbf      0x21e cmd/built-in.o
+                0x40850bc2      0x21e cmd/built-in.o
                                 0x255 (size before relaxing)
  .rodata.do_sysboot.str1.1
-                0x40850ddd       0x43 cmd/built-in.o
+                0x40850de0       0x43 cmd/built-in.o
  .rodata.do_ugzip.str1.1
-                0x40850e20       0xd6 common/built-in.o
+                0x40850e23       0xd6 common/built-in.o
  .rodata.do_undefined_instruction.str1.1
-                0x40850ef6       0x17 arch/arm/lib/built-in.o
+                0x40850ef9       0x17 arch/arm/lib/built-in.o
  .rodata.do_unzip.str1.1
-                0x40850f0d       0x20 cmd/built-in.o
+                0x40850f10       0x20 cmd/built-in.o
                                  0x29 (size before relaxing)
  .rodata.do_usb.str1.1
-                0x40850f2d      0x38b cmd/built-in.o
+                0x40850f30      0x38b cmd/built-in.o
                                 0x3e0 (size before relaxing)
  .rodata.do_usbboot.str1.1
-                0x408512b8        0x4 cmd/built-in.o
+                0x408512bb        0x4 cmd/built-in.o
  .rodata.do_usbtftp.str1.1
-                0x408512bc       0x61 cmd/built-in.o
+                0x408512bf       0x61 cmd/built-in.o
                                  0x76 (size before relaxing)
  .rodata.do_version.str1.1
-                0x4085131d       0x5f cmd/built-in.o
+                0x40851320       0x5f cmd/built-in.o
  .rodata.download_boot.str1.1
-                0x4085137c       0x19 common/built-in.o
+                0x4085137f       0x19 common/built-in.o
  .rodata.download_process.str1.1
-                0x40851395       0x19 common/built-in.o
+                0x40851398       0x19 common/built-in.o
  .rodata.emit.str1.1
-                0x408513ae       0x1f lib/built-in.o
+                0x408513b1       0x1f lib/built-in.o
  .rodata.emmc_env_relocate_spec.str1.1
-                0x408513cd        0xd common/built-in.o
+                0x408513d0        0xd common/built-in.o
  .rodata.emmc_saveenv.str1.1
-                0x408513da       0x3d common/built-in.o
+                0x408513dd       0x3d common/built-in.o
                                  0x50 (size before relaxing)
  .rodata.env_callback_init.str1.1
-                0x40851417        0xb common/built-in.o
+                0x4085141a        0xb common/built-in.o
  .rodata.env_complete.str1.1
-                0x40851422       0x1d common/built-in.o
+                0x40851425       0x1d common/built-in.o
                                   0x4 (size before relaxing)
  .rodata.env_export.str1.1
-                0x40851422       0x3d common/built-in.o
+                0x40851425       0x3d common/built-in.o
  .rodata.env_flags_init.str1.1
-                0x40851422        0x7 common/built-in.o
+                0x40851425        0x7 common/built-in.o
  .rodata.env_flags_parse_varaccess.str1.1
-                0x40851429       0x3d common/built-in.o
+                0x4085142c       0x3d common/built-in.o
  .rodata.env_flags_parse_vartype.str1.1
-                0x40851466       0x34 common/built-in.o
+                0x40851469       0x34 common/built-in.o
  .rodata.env_flags_validate.str1.1
-                0x4085149a       0xb2 common/built-in.o
+                0x4085149d       0xb2 common/built-in.o
                                  0xb3 (size before relaxing)
  .rodata.env_flags_varaccess_rep
-                0x4085154c        0x5 common/built-in.o
+                0x4085154f        0x5 common/built-in.o
  .rodata.env_flags_vartype_rep
-                0x40851551        0x7 common/built-in.o
+                0x40851554        0x7 common/built-in.o
  .rodata.env_import.str1.1
-                0x40851558       0x55 common/built-in.o
+                0x4085155b       0x55 common/built-in.o
  .rodata.env_print.str1.1
-                0x408515ad       0x25 cmd/built-in.o
+                0x408515b0       0x25 cmd/built-in.o
                                  0x2c (size before relaxing)
  .rodata.ep_comp
-                0x408515d2        0x6 drivers/usb/gadget/hiudc3/built-in.o
-                0x408515d2                ep_comp
+                0x408515d5        0x6 drivers/usb/gadget/hiudc3/built-in.o
+                0x408515d5                ep_comp
  .rodata.erase_seq
-                0x408515d8        0x4 common/built-in.o
+                0x408515db        0x4 common/built-in.o
  .rodata.eth_current_changed.str1.1
-                0x408515dc       0x11 net/built-in.o
+                0x408515df       0x11 net/built-in.o
                                  0x14 (size before relaxing)
  .rodata.eth_get_dev_by_name.str1.1
-                0x408515ed       0x11 net/built-in.o
+                0x408515f0       0x11 net/built-in.o
                                  0x33 (size before relaxing)
  .rodata.eth_get_name.str1.1
-                0x408515fe        0x8 net/built-in.o
+                0x40851601        0x8 net/built-in.o
  .rodata.eth_getenv_enetaddr_by_index.str1.1
-                0x408515fe       0x10 net/built-in.o
+                0x40851601       0x10 net/built-in.o
  .rodata.eth_initialize.str1.1
-                0x4085160e       0x96 net/built-in.o
+                0x40851611       0x96 net/built-in.o
                                  0xb0 (size before relaxing)
  .rodata.eth_mac_skip.str1.1
-                0x408516a4       0x18 net/built-in.o
+                0x408516a7       0x18 net/built-in.o
  .rodata.eth_set_current.str1.1
-                0x408516bc        0x9 net/built-in.o
+                0x408516bf        0x9 net/built-in.o
  .rodata.eth_set_host_mac_address.str1.1
-                0x408516bc       0x33 drivers/net/built-in.o
+                0x408516bf       0x33 drivers/net/built-in.o
                                  0x3b (size before relaxing)
  .rodata.eth_setenv_enetaddr.str1.1
-                0x408516ef        0x4 net/built-in.o
+                0x408516f2        0x4 net/built-in.o
  .rodata.eth_write_hwaddr.str1.1
-                0x408516f3       0xec net/built-in.o
+                0x408516f6       0xec net/built-in.o
  .rodata.ext4_read_file.str1.1
-                0x408517df       0x3f fs/built-in.o
+                0x408517e2       0x3f fs/built-in.o
  .rodata.ext4_unsparse.str1.1
-                0x4085181e      0x17a fs/built-in.o
+                0x40851821      0x17a fs/built-in.o
                                 0x182 (size before relaxing)
  .rodata.ext4fs_devread.str1.1
-                0x40851998       0xa6 fs/built-in.o
+                0x4085199b       0xa6 fs/built-in.o
  .rodata.ext4fs_iterate_dir.str1.1
-                0x40851a3e       0x43 fs/built-in.o
+                0x40851a41       0x43 fs/built-in.o
                                  0x4a (size before relaxing)
  .rodata.ext4fs_ls.str1.1
-                0x40851a81       0x1f fs/built-in.o
+                0x40851a84       0x1f fs/built-in.o
  .rodata.ext4fs_mount.str1.1
-                0x40851aa0       0x24 fs/built-in.o
+                0x40851aa3       0x24 fs/built-in.o
  .rodata.fat_read_file.str1.1
-                0x40851ac4       0x1e fs/built-in.o
+                0x40851ac7       0x1e fs/built-in.o
  .rodata.fat_set_blk_dev.str1.1
-                0x40851ae2        0x3 fs/built-in.o
+                0x40851ae5        0x3 fs/built-in.o
                                   0xd (size before relaxing)
  .rodata.fdt_get_alias_namelen.str1.1
-                0x40851ae5        0x9 lib/built-in.o
+                0x40851ae8        0x9 lib/built-in.o
  .rodata.fdt_strerror.str1.1
-                0x40851aee       0x31 lib/built-in.o
+                0x40851af1       0x31 lib/built-in.o
  .rodata.file_fat_detectfs.str1.1
-                0x40851b1f       0x5c fs/built-in.o
+                0x40851b22       0x5c fs/built-in.o
                                  0x84 (size before relaxing)
  .rodata.file_fat_read_at.str1.1
-                0x40851b7b        0xc fs/built-in.o
+                0x40851b7e        0xc fs/built-in.o
  .rodata.file_get.str1.1
-                0x40851b87        0xd common/built-in.o
+                0x40851b8a        0xd common/built-in.o
                                  0x10 (size before relaxing)
  .rodata.find_mmc_device.str1.1
-                0x40851b94       0x19 drivers/mmc/built-in.o
+                0x40851b97       0x19 drivers/mmc/built-in.o
  .rodata.fit_all_image_verify.str1.1
-                0x40851bad       0x7a common/built-in.o
+                0x40851bb0       0x7a common/built-in.o
  .rodata.fit_conf_find_compat.str1.1
-                0x40851c27       0x1b common/built-in.o
+                0x40851c2a       0x1b common/built-in.o
                                  0x1f (size before relaxing)
  .rodata.fit_conf_get_node.str1.1
-                0x40851c42        0x8 common/built-in.o
+                0x40851c45        0x8 common/built-in.o
  .rodata.fit_conf_print.str1.1
-                0x40851c42       0x7b common/built-in.o
+                0x40851c45       0x7b common/built-in.o
                                  0x99 (size before relaxing)
  .rodata.fit_get_desc.str1.1
-                0x40851cbd        0xc common/built-in.o
+                0x40851cc0        0xc common/built-in.o
  .rodata.fit_image_get_address.str1.1
-                0x40851cc9       0x1d common/built-in.o
+                0x40851ccc       0x1d common/built-in.o
  .rodata.fit_image_get_arch.str1.1
-                0x40851ce6       0x1d common/built-in.o
+                0x40851ce9       0x1d common/built-in.o
                                   0x5 (size before relaxing)
  .rodata.fit_image_get_comp.str1.1
-                0x40851ce6        0xc common/built-in.o
+                0x40851ce9        0xc common/built-in.o
  .rodata.fit_image_get_data.str1.1
-                0x40851ce6        0x5 common/built-in.o
+                0x40851ce9        0x5 common/built-in.o
  .rodata.fit_image_get_entry.str1.1
-                0x40851ceb        0x6 common/built-in.o
+                0x40851cee        0x6 common/built-in.o
  .rodata.fit_image_get_load.str1.1
-                0x40851cf1        0x6 common/built-in.o
+                0x40851cf4        0x6 common/built-in.o
                                   0x5 (size before relaxing)
  .rodata.fit_image_get_node.str1.1
-                0x40851cf1        0x8 common/built-in.o
+                0x40851cf4        0x8 common/built-in.o
  .rodata.fit_image_get_os.str1.1
-                0x40851cf9        0x8 common/built-in.o
+                0x40851cfc        0x8 common/built-in.o
                                   0x3 (size before relaxing)
  .rodata.fit_image_get_type.str1.1
-                0x40851cf9        0x8 common/built-in.o
+                0x40851cfc        0x8 common/built-in.o
                                   0x5 (size before relaxing)
  .rodata.fit_image_hash_get_algo.str1.1
-                0x40851cf9        0x5 common/built-in.o
+                0x40851cfc        0x5 common/built-in.o
  .rodata.fit_image_hash_get_value.str1.1
-                0x40851cfe        0x5 common/built-in.o
+                0x40851d01        0x5 common/built-in.o
                                   0x6 (size before relaxing)
  .rodata.fit_image_load.str1.1
-                0x40851cfe      0x1c5 common/built-in.o
+                0x40851d01      0x1c5 common/built-in.o
                                 0x1e0 (size before relaxing)
  .rodata.fit_image_print.str1.1
-                0x40851ec3       0xd0 common/built-in.o
+                0x40851ec6       0xd0 common/built-in.o
                                  0xdd (size before relaxing)
  .rodata.fit_image_print_data.str1.1
-                0x40851f93       0x67 common/built-in.o
+                0x40851f96       0x67 common/built-in.o
                                  0x75 (size before relaxing)
  .rodata.fit_image_verify.str1.1
-                0x40851ffa       0xfa common/built-in.o
+                0x40851ffd       0xfa common/built-in.o
  .rodata.fit_print_contents.str1.1
-                0x408520f4       0x60 common/built-in.o
+                0x408520f7       0x60 common/built-in.o
                                  0x64 (size before relaxing)
  .rodata.format_mac_pxe.constprop.7.str1.1
-                0x40852154       0x21 cmd/built-in.o
+                0x40852157       0x21 cmd/built-in.o
                                  0x25 (size before relaxing)
  .rodata.from_env.str1.1
-                0x40852175       0x22 cmd/built-in.o
+                0x40852178       0x22 cmd/built-in.o
  .rodata.fs_probe_unsupported.str1.1
-                0x40852197       0x24 fs/built-in.o
+                0x4085219a       0x24 fs/built-in.o
  .rodata.fs_read.str1.1
-                0x408521bb       0x24 fs/built-in.o
+                0x408521be       0x24 fs/built-in.o
  .rodata.genimg_get_arch_id.str1.1
-                0x408521df       0x54 common/built-in.o
+                0x408521e2       0x54 common/built-in.o
                                   0x4 (size before relaxing)
  .rodata.genimg_get_arch_name.str1.1
-                0x408521df       0x15 common/built-in.o
+                0x408521e2       0x15 common/built-in.o
  .rodata.genimg_get_comp_id.str1.1
-                0x408521f4       0x15 common/built-in.o
+                0x408521f7       0x15 common/built-in.o
                                   0xc (size before relaxing)
  .rodata.genimg_get_comp_name.str1.1
-                0x408521f4       0x14 common/built-in.o
+                0x408521f7       0x14 common/built-in.o
  .rodata.genimg_get_os_id.str1.1
-                0x40852208       0x14 common/built-in.o
+                0x4085220b       0x14 common/built-in.o
                                   0x3 (size before relaxing)
  .rodata.genimg_get_os_name.str1.1
-                0x40852208        0xb common/built-in.o
+                0x4085220b        0xb common/built-in.o
  .rodata.genimg_get_type_id.str1.1
-                0x40852213        0xb common/built-in.o
+                0x40852216        0xb common/built-in.o
                                   0x6 (size before relaxing)
  .rodata.genimg_get_type_name.str1.1
-                0x40852213        0xe common/built-in.o
+                0x40852216        0xe common/built-in.o
  .rodata.genimg_print_size.str1.1
-                0x40852221        0xc common/built-in.o
+                0x40852224        0xc common/built-in.o
                                   0xe (size before relaxing)
  .rodata.get_cluster.str1.1
-                0x4085222d       0x25 fs/built-in.o
+                0x40852230       0x25 fs/built-in.o
  .rodata.get_current.str1.1
-                0x40852252       0x15 drivers/serial/built-in.o
+                0x40852255       0x15 drivers/serial/built-in.o
  .rodata.get_descriptor_len.str1.1
-                0x40852267       0x98 common/built-in.o
+                0x4085226a       0x98 common/built-in.o
  .rodata.get_gicd_base_address.str1.1
-                0x408522ff       0x2e arch/arm/cpu/armv7/built-in.o
+                0x40852302       0x2e arch/arm/cpu/armv7/built-in.o
  .rodata.get_local_var.str1.1
-                0x4085232d        0x3 common/built-in.o
+                0x40852330        0x3 common/built-in.o
  .rodata.get_pxe_file.str1.1
-                0x40852330        0x9 cmd/built-in.o
+                0x40852333        0x9 cmd/built-in.o
  .rodata.get_pxelinux_path.str1.1
-                0x40852330       0x3e cmd/built-in.o
+                0x40852333       0x3e cmd/built-in.o
  .rodata.get_relfile.str1.1
-                0x4085236e       0x56 cmd/built-in.o
+                0x40852371       0x56 cmd/built-in.o
                                  0x63 (size before relaxing)
  .rodata.get_vfatname.str1.1
-                0x408523c4       0x13 fs/built-in.o
+                0x408523c7       0x13 fs/built-in.o
  .rodata.getenv_bootm_low.str1.1
-                0x408523d7        0xa common/built-in.o
+                0x408523da        0xa common/built-in.o
  .rodata.getenv_bootm_mapsize.str1.1
-                0x408523e1        0xe common/built-in.o
+                0x408523e4        0xe common/built-in.o
  .rodata.getenv_bootm_size.str1.1
-                0x408523ef        0xb common/built-in.o
+                0x408523f2        0xb common/built-in.o
  .rodata.getenv_f.str1.1
-                0x408523fa       0x30 cmd/built-in.o
+                0x408523fd       0x30 cmd/built-in.o
  .rodata.gunzip.str1.1
-                0x4085242a       0x25 lib/built-in.o
+                0x4085242d       0x25 lib/built-in.o
  .rodata.gzwrite.str1.1
-                0x4085244f      0x15b lib/built-in.o
+                0x40852452      0x15b lib/built-in.o
                                 0x162 (size before relaxing)
  .rodata.gzwrite_progress.str1.1
-                0x408525aa        0xb lib/built-in.o
+                0x408525ad        0xb lib/built-in.o
  .rodata.gzwrite_progress_finish.str1.1
-                0x408525b5       0x4e lib/built-in.o
+                0x408525b8       0x4e lib/built-in.o
  .rodata.handle_include.str1.1
-                0x40852603       0x33 cmd/built-in.o
+                0x40852606       0x33 cmd/built-in.o
  .rodata.handle_pxe_menu.str1.1
-                0x40852636       0x15 cmd/built-in.o
+                0x40852639       0x15 cmd/built-in.o
                                  0x18 (size before relaxing)
  .rodata.hang.str1.1
-                0x4085264b       0x2a lib/built-in.o
+                0x4085264e       0x2a lib/built-in.o
  .rodata.hash_command.str1.1
-                0x40852675       0x58 common/built-in.o
+                0x40852678       0x58 common/built-in.o
                                  0x5f (size before relaxing)
  .rodata.hex_asc
-                0x408526cd       0x11 lib/built-in.o
+                0x408526d0       0x11 lib/built-in.o
  .rodata.hexport_r.str1.1
-                0x408526de       0x30 lib/built-in.o
+                0x408526e1       0x30 lib/built-in.o
  .rodata.hieth_init.str1.1
-                0x4085270e      0x119 drivers/net/built-in.o
+                0x40852711      0x119 drivers/net/built-in.o
                                 0x11d (size before relaxing)
  .rodata.hieth_initialize.str1.1
-                0x40852827        0x6 drivers/net/built-in.o
+                0x4085282a        0x6 drivers/net/built-in.o
  .rodata.hieth_mdio_read.str1.1
-                0x4085282d       0x47 drivers/net/built-in.o
+                0x40852830       0x47 drivers/net/built-in.o
                                  0x57 (size before relaxing)
  .rodata.hieth_mdiobus_driver_init.str1.1
-                0x40852874       0x27 drivers/net/built-in.o
+                0x40852877       0x27 drivers/net/built-in.o
  .rodata.hieth_recv.str1.1
-                0x4085289b       0x43 drivers/net/built-in.o
+                0x4085289e       0x43 drivers/net/built-in.o
                                  0x45 (size before relaxing)
  .rodata.hieth_send.str1.1
-                0x408528de       0x27 drivers/net/built-in.o
+                0x408528e1       0x27 drivers/net/built-in.o
  .rodata.hifmc100_cmdfunc.str1.1
-                0x40852905       0x20 drivers/mtd/nand/built-in.o
+                0x40852908       0x20 drivers/mtd/nand/built-in.o
  .rodata.hifmc100_dev_ready.str1.1
-                0x40852925       0x60 drivers/mtd/nand/built-in.o
+                0x40852928       0x60 drivers/mtd/nand/built-in.o
  .rodata.hifmc100_dma_read.str1.1
-                0x40852985       0xbe drivers/mtd/spi/built-in.o
+                0x40852988       0xbe drivers/mtd/spi/built-in.o
  .rodata.hifmc100_dma_transfer.str1.1
-                0x40852a43       0x2d drivers/mtd/spi/built-in.o
+                0x40852a46       0x2d drivers/mtd/spi/built-in.o
  .rodata.hifmc100_dma_write.str1.1
-                0x40852a43       0x67 drivers/mtd/spi/built-in.o
+                0x40852a46       0x67 drivers/mtd/spi/built-in.o
  .rodata.hifmc100_ecc0_switch.str1.1
-                0x40852aaa       0x23 drivers/mtd/nand/built-in.o
+                0x40852aad       0x23 drivers/mtd/nand/built-in.o
  .rodata.hifmc100_host_init.str1.1
-                0x40852acd       0x6d drivers/mtd/nand/built-in.o
+                0x40852ad0       0x6d drivers/mtd/nand/built-in.o
  .rodata.hifmc100_reg_erase.str1.1
-                0x40852b3a      0x118 drivers/mtd/spi/built-in.o
+                0x40852b3d      0x118 drivers/mtd/spi/built-in.o
                                 0x173 (size before relaxing)
  .rodata.hifmc100_select_chip.str1.1
-                0x40852c52       0x51 drivers/mtd/nand/built-in.o
+                0x40852c55       0x51 drivers/mtd/nand/built-in.o
  .rodata.hifmc100_send_cmd_erase.str1.1
-                0x40852ca3       0x95 drivers/mtd/nand/built-in.o
+                0x40852ca6       0x95 drivers/mtd/nand/built-in.o
  .rodata.hifmc100_send_cmd_pageprog.str1.1
-                0x40852d38       0x77 drivers/mtd/nand/built-in.o
+                0x40852d3b       0x77 drivers/mtd/nand/built-in.o
  .rodata.hifmc100_send_cmd_readstart.str1.1
-                0x40852daf       0x2d drivers/mtd/nand/built-in.o
+                0x40852db2       0x2d drivers/mtd/nand/built-in.o
  .rodata.hifmc100_set_config_info.str1.1
-                0x40852ddc       0x86 drivers/mtd/nand/built-in.o
+                0x40852ddf       0x86 drivers/mtd/nand/built-in.o
  .rodata.hifmc100_spi_nor_init.str1.1
-                0x40852e62       0x68 drivers/mtd/spi/built-in.o
+                0x40852e65       0x68 drivers/mtd/spi/built-in.o
  .rodata.hifmc100_spi_nor_scan.str1.1
-                0x40852eca        0x7 drivers/mtd/spi/built-in.o
+                0x40852ecd        0x7 drivers/mtd/spi/built-in.o
  .rodata.hifmc_ip_ver_check.str1.1
-                0x40852ed1        0x2 drivers/mtd/built-in.o
+                0x40852ed4        0x2 drivers/mtd/built-in.o
  .rodata.hifmc_spi_nand_ids_register.str1.1
-                0x40852ed1       0x22 drivers/mtd/nand/built-in.o
+                0x40852ed4       0x22 drivers/mtd/nand/built-in.o
  .rodata.hifmc_spi_nor_probe.str1.1
-                0x40852ef3      0x12b drivers/mtd/spi/built-in.o
+                0x40852ef6      0x12b drivers/mtd/spi/built-in.o
                                 0x152 (size before relaxing)
  .rodata.himport_r.str1.1
-                0x4085301e       0x99 lib/built-in.o
+                0x40853021       0x99 lib/built-in.o
  .rodata.hs_bulk_in
-                0x408530b7        0x7 drivers/usb/gadget/hiudc3/built-in.o
-                0x408530b7                hs_bulk_in
+                0x408530ba        0x7 drivers/usb/gadget/hiudc3/built-in.o
+                0x408530ba                hs_bulk_in
  .rodata.hs_bulk_out
-                0x408530be        0x7 drivers/usb/gadget/hiudc3/built-in.o
-                0x408530be                hs_bulk_out
+                0x408530c1        0x7 drivers/usb/gadget/hiudc3/built-in.o
+                0x408530c1                hs_bulk_out
  .rodata.image_info.str1.1
-                0x408530c5       0xef cmd/built-in.o
+                0x408530c8       0xef cmd/built-in.o
  .rodata.image_print_contents.str1.1
-                0x408531b4       0xa8 common/built-in.o
+                0x408531b7       0xa8 common/built-in.o
                                  0xac (size before relaxing)
  .rodata.inflate.str1.1
-                0x4085325c      0x158 lib/built-in.o
+                0x4085325f      0x158 lib/built-in.o
  .rodata.inflate_fast.str1.1
-                0x408533b4       0x50 lib/built-in.o
+                0x408533b7       0x50 lib/built-in.o
  .rodata.init_baud_rate.str1.1
-                0x40853404        0x9 common/built-in.o
+                0x40853407        0x9 common/built-in.o
  .rodata.init_mmc_device.str1.1
-                0x4085340d       0x1a cmd/built-in.o
+                0x40853410       0x1a cmd/built-in.o
  .rodata.initcall_run_list.str1.1
-                0x40853427       0x31 lib/built-in.o
+                0x4085342a       0x31 lib/built-in.o
  .rodata.initr_env.str1.1
-                0x40853458        0x9 common/built-in.o
+                0x4085345b        0x9 common/built-in.o
  .rodata.initr_ethaddr.str1.1
-                0x40853458        0x8 common/built-in.o
+                0x4085345b        0x8 common/built-in.o
  .rodata.initr_mmc.str1.1
-                0x40853458        0x8 common/built-in.o
+                0x4085345b        0x8 common/built-in.o
  .rodata.initr_nand.str1.1
-                0x40853460        0x8 common/built-in.o
+                0x40853463        0x8 common/built-in.o
  .rodata.initr_net.str1.1
-                0x40853468        0x8 common/built-in.o
+                0x4085346b        0x8 common/built-in.o
  .rodata.initr_snor.str1.1
-                0x40853470        0xb common/built-in.o
+                0x40853473        0xb common/built-in.o
  .rodata.insert_var_value_sub.str1.1
-                0x4085347b        0x6 common/built-in.o
- .rodata.intf   0x40853481        0x9 drivers/usb/gadget/hiudc3/built-in.o
-                0x40853481                intf
+                0x4085347e        0x6 common/built-in.o
+ .rodata.intf   0x40853484        0x9 drivers/usb/gadget/hiudc3/built-in.o
+                0x40853484                intf
  .rodata.ip_to_string.str1.1
-                0x4085348a        0xc net/built-in.o
+                0x4085348d        0xc net/built-in.o
  .rodata.is_gpt_valid.str1.1
-                0x40853496       0xc4 disk/built-in.o
+                0x40853499       0xc4 disk/built-in.o
  .rodata.iso_dread.str1.1
-                0x4085355a       0x11 disk/built-in.o
+                0x4085355d       0x11 disk/built-in.o
  .rodata.label_boot.str1.1
-                0x4085356b      0x15e cmd/built-in.o
+                0x4085356e      0x15e cmd/built-in.o
                                 0x19c (size before relaxing)
  .rodata.label_print.str1.1
-                0x408536c9        0x8 cmd/built-in.o
+                0x408536cc        0x8 cmd/built-in.o
  .rodata.lists_bind_drivers.str1.1
-                0x408536d1       0x1a drivers/built-in.o
+                0x408536d4       0x1a drivers/built-in.o
  .rodata.lmb_alloc_base.str1.1
-                0x408536eb       0x34 lib/built-in.o
+                0x408536ee       0x34 lib/built-in.o
  .rodata.load_serial.str1.1
-                0x4085371f       0x65 cmd/built-in.o
+                0x40853722       0x65 cmd/built-in.o
  .rodata.load_serial_ymodem.str1.1
-                0x40853784       0x31 cmd/built-in.o
+                0x40853787       0x31 cmd/built-in.o
                                  0x35 (size before relaxing)
  .rodata.main_loop.str1.1
-                0x408537b5       0x11 common/built-in.o
+                0x408537b8       0x11 common/built-in.o
  .rodata.match.str1.1
-                0x408537c6       0x18 lib/built-in.o
+                0x408537c9       0x18 lib/built-in.o
  .rodata.match_entry.str1.1
-                0x408537de       0x1b lib/built-in.o
+                0x408537e1       0x1b lib/built-in.o
  .rodata.match_string.str1.1
-                0x408537de       0x2c lib/built-in.o
+                0x408537e1       0x2c lib/built-in.o
  .rodata.mdio_list_devices.str1.1
-                0x4085380a       0x17 common/built-in.o
+                0x4085380d       0x17 common/built-in.o
                                  0x19 (size before relaxing)
  .rodata.mdio_register.str1.1
-                0x40853821       0x2c common/built-in.o
+                0x40853824       0x2c common/built-in.o
  .rodata.menu_get_choice.str1.1
-                0x4085384d       0x1d common/built-in.o
+                0x40853850       0x1d common/built-in.o
                                  0x2a (size before relaxing)
  .rodata.miiphy_duplex.str1.1
-                0x4085386a       0x4f common/built-in.o
+                0x4085386d       0x4f common/built-in.o
  .rodata.miiphy_get_dev_by_name.str1.1
-                0x408538b9       0x13 common/built-in.o
+                0x408538bc       0x13 common/built-in.o
  .rodata.miiphy_link.str1.1
-                0x408538cc       0x28 common/built-in.o
+                0x408538cf       0x28 common/built-in.o
  .rodata.miiphy_listdev.str1.1
-                0x408538f4       0x2a common/built-in.o
+                0x408538f7       0x2a common/built-in.o
  .rodata.miiphy_reset.str1.1
-                0x4085391e       0x15 common/built-in.o
+                0x40853921       0x15 common/built-in.o
  .rodata.miiphy_set_current_dev.str1.1
-                0x40853933       0x14 common/built-in.o
+                0x40853936       0x14 common/built-in.o
  .rodata.miiphy_speed.str1.1
-                0x40853947       0x49 common/built-in.o
+                0x4085394a       0x49 common/built-in.o
  .rodata.misc_init_r.str1.1
-                0x40853990       0x35 board/hisilicon/hi3516ev200/built-in.o
+                0x40853993       0x35 board/hisilicon/hi3516ev200/built-in.o
                                   0x9 (size before relaxing)
  .rodata.mmc_hwpart_config.str1.1
-                0x40853990      0x19f drivers/mmc/built-in.o
+                0x40853993      0x19f drivers/mmc/built-in.o
  .rodata.mmc_send_status.str1.1
-                0x40853b2f       0x32 drivers/mmc/built-in.o
+                0x40853b32       0x32 drivers/mmc/built-in.o
  .rodata.mmc_start_init.str1.1
-                0x40853b61       0x3f drivers/mmc/built-in.o
+                0x40853b64       0x3f drivers/mmc/built-in.o
  .rodata.mmc_startup.str1.1
-                0x40853ba0      0x13d drivers/mmc/built-in.o
+                0x40853ba3      0x13d drivers/mmc/built-in.o
                                 0x143 (size before relaxing)
  .rodata.mmc_switch_status.str1.1
-                0x40853cdd       0x24 drivers/mmc/built-in.o
+                0x40853ce0       0x24 drivers/mmc/built-in.o
  .rodata.mod_mem.isra.0.str1.1
-                0x40853d01       0x1d cmd/built-in.o
+                0x40853d04       0x1d cmd/built-in.o
  .rodata.mtd_arg_off.str1.1
-                0x40853d1e       0x38 drivers/mtd/built-in.o
+                0x40853d21       0x38 drivers/mtd/built-in.o
  .rodata.mtd_arg_off_size.str1.1
-                0x40853d56       0x33 drivers/mtd/built-in.o
+                0x40853d59       0x33 drivers/mtd/built-in.o
                                  0x71 (size before relaxing)
  .rodata.multipliers
-                0x40853d89       0x10 drivers/mmc/built-in.o
+                0x40853d8c       0x10 drivers/mmc/built-in.o
  .rodata.names.7923
-                0x40853d99        0x6 lib/built-in.o
+                0x40853d9c        0x6 lib/built-in.o
  .rodata.nand_ecc_name.str1.1
-                0x40853d9f        0x8 drivers/mtd/nand/built-in.o
+                0x40853da2        0x8 drivers/mtd/nand/built-in.o
  .rodata.nand_ecc_precalc_table
-                0x40853d9f      0x100 drivers/mtd/nand/built-in.o
+                0x40853da2      0x100 drivers/mtd/nand/built-in.o
  .rodata.nand_env_relocate_spec.str1.1
-                0x40853e9f       0x12 common/built-in.o
+                0x40853ea2       0x12 common/built-in.o
  .rodata.nand_erase_opts.str1.1
-                0x40853eb1      0x110 drivers/mtd/nand/built-in.o
+                0x40853eb4      0x110 drivers/mtd/nand/built-in.o
                                 0x138 (size before relaxing)
  .rodata.nand_get_ecctype.str1.1
-                0x40853fc1       0x1f drivers/mtd/nand/built-in.o
+                0x40853fc4       0x1f drivers/mtd/nand/built-in.o
  .rodata.nand_init.str1.1
-                0x40853fe0        0x9 drivers/mtd/nand/built-in.o
+                0x40853fe3        0x9 drivers/mtd/nand/built-in.o
  .rodata.nand_print_and_set_info.str1.1
-                0x40853fe9       0xc6 cmd/built-in.o
+                0x40853fec       0xc6 cmd/built-in.o
                                  0xd2 (size before relaxing)
  .rodata.nand_read_skip_bad.str1.1
-                0x408540af       0xc2 drivers/mtd/nand/built-in.o
+                0x408540b2       0xc2 drivers/mtd/nand/built-in.o
  .rodata.nand_read_yaffs_skip_bad.str1.1
-                0x40854171       0xd6 drivers/mtd/nand/built-in.o
+                0x40854174       0xd6 drivers/mtd/nand/built-in.o
  .rodata.nand_register.str1.1
-                0x40854247        0x7 drivers/mtd/nand/built-in.o
+                0x4085424a        0x7 drivers/mtd/nand/built-in.o
  .rodata.nand_saveenv.str1.1
-                0x4085424e       0x2a common/built-in.o
+                0x40854251       0x2a common/built-in.o
                                  0x33 (size before relaxing)
  .rodata.nand_scan_ident.str1.1
-                0x40854278        0xa drivers/mtd/nand/built-in.o
+                0x4085427b        0xa drivers/mtd/nand/built-in.o
                                  0x32 (size before relaxing)
  .rodata.nand_select_chip.str1.1
-                0x40854282       0x22 drivers/mtd/nand/built-in.o
+                0x40854285       0x22 drivers/mtd/nand/built-in.o
  .rodata.nand_wait.str1.1
-                0x40854282       0x34 drivers/mtd/nand/built-in.o
+                0x40854285       0x34 drivers/mtd/nand/built-in.o
  .rodata.nand_write_skip_bad.str1.1
-                0x408542b6       0xed drivers/mtd/nand/built-in.o
+                0x408542b9       0xed drivers/mtd/nand/built-in.o
  .rodata.nand_write_yaffs_skip_bad.str1.1
-                0x408543a3       0xcf drivers/mtd/nand/built-in.o
+                0x408543a6       0xcf drivers/mtd/nand/built-in.o
  .rodata.net_auto_load.str1.1
-                0x40854472        0xd net/built-in.o
+                0x40854475        0xd net/built-in.o
  .rodata.net_bcast_ethaddr
-                0x4085447f        0x6 net/built-in.o
-                0x4085447f                net_bcast_ethaddr
+                0x40854482        0x6 net/built-in.o
+                0x40854482                net_bcast_ethaddr
  .rodata.net_loop.str1.1
-                0x40854485       0xe5 net/built-in.o
+                0x40854488       0xe5 net/built-in.o
                                  0xf7 (size before relaxing)
  .rodata.net_process_received_packet.str1.1
-                0x4085456a       0x1d net/built-in.o
+                0x4085456d       0x1d net/built-in.o
  .rodata.net_start_again.str1.1
-                0x40854587        0xe net/built-in.o
+                0x4085458a        0xe net/built-in.o
                                  0x15 (size before relaxing)
  .rodata.netboot_common.str1.1
-                0x40854595       0x16 cmd/built-in.o
+                0x40854598       0x16 cmd/built-in.o
                                  0x4a (size before relaxing)
  .rodata.nfs_handler.str1.1
-                0x408545ab       0x56 net/built-in.o
+                0x408545ae       0x56 net/built-in.o
  .rodata.nfs_lookup_reply.str1.1
-                0x40854601       0x25 net/built-in.o
+                0x40854604       0x25 net/built-in.o
                                  0x27 (size before relaxing)
  .rodata.nfs_read_reply.isra.0.str1.1
-                0x40854626        0x4 net/built-in.o
+                0x40854629        0x4 net/built-in.o
  .rodata.nfs_readlink_reply.str1.1
-                0x4085462a        0x2 net/built-in.o
+                0x4085462d        0x2 net/built-in.o
  .rodata.nfs_start.str1.1
-                0x4085462a       0x1e net/built-in.o
+                0x4085462d       0x1e net/built-in.o
                                  0x1f (size before relaxing)
  .rodata.nfs_timeout_handler.str1.1
-                0x40854648       0x2a net/built-in.o
+                0x4085464b       0x2a net/built-in.o
  .rodata.on_baudrate.str1.1
-                0x40854672       0x42 drivers/serial/built-in.o
+                0x40854675       0x42 drivers/serial/built-in.o
                                  0x74 (size before relaxing)
  .rodata.on_callbacks.str1.1
-                0x408546b4       0xf4 common/built-in.o
+                0x408546b7       0xf4 common/built-in.o
  .rodata.on_console.str1.1
-                0x408547a8       0x10 common/built-in.o
+                0x408547ab       0x10 common/built-in.o
                                  0x27 (size before relaxing)
  .rodata.on_ethaddr.str1.1
-                0x408547a8        0x4 net/built-in.o
+                0x408547ab        0x4 net/built-in.o
  .rodata.on_flags.str1.1
-                0x408547a8       0x50 common/built-in.o
+                0x408547ab       0x50 common/built-in.o
  .rodata.parse_argv.str1.1
-                0x408547f8        0x6 cmd/built-in.o
+                0x408547fb        0x6 cmd/built-in.o
                                   0xd (size before relaxing)
  .rodata.parse_integer.str1.1
-                0x408547fe       0x17 cmd/built-in.o
+                0x40854801       0x17 cmd/built-in.o
  .rodata.parse_pxefile_top.str1.1
-                0x40854815       0x89 cmd/built-in.o
+                0x40854818       0x89 cmd/built-in.o
  .rodata.parse_sliteral.str1.1
-                0x4085489e       0x1f cmd/built-in.o
+                0x408548a1       0x1f cmd/built-in.o
  .rodata.parse_stream_outer.str1.1
-                0x408548bd       0x4d common/built-in.o
+                0x408548c0       0x4d common/built-in.o
  .rodata.parse_string_outer.str1.1
-                0x4085490a        0x2 common/built-in.o
+                0x4085490d        0x2 common/built-in.o
  .rodata.part_get_info_efi.str1.1
-                0x4085490a        0xa disk/built-in.o
+                0x4085490d        0xa disk/built-in.o
  .rodata.part_get_info_extended.str1.1
-                0x4085490a        0xa disk/built-in.o
+                0x4085490d        0xa disk/built-in.o
                                  0x11 (size before relaxing)
  .rodata.part_get_info_iso_verb.str1.1
-                0x40854914      0x1bf disk/built-in.o
+                0x40854917      0x1bf disk/built-in.o
                                 0x1c6 (size before relaxing)
  .rodata.part_print.str1.1
-                0x40854ad3       0x82 disk/built-in.o
+                0x40854ad6       0x82 disk/built-in.o
                                  0x8b (size before relaxing)
  .rodata.part_print_dos.str1.1
-                0x40854b55       0x2a disk/built-in.o
+                0x40854b58       0x2a disk/built-in.o
  .rodata.part_print_efi.str1.1
-                0x40854b7f       0xf9 disk/built-in.o
+                0x40854b82       0xf9 disk/built-in.o
  .rodata.part_print_iso.str1.1
-                0x40854c78       0x68 disk/built-in.o
+                0x40854c7b       0x68 disk/built-in.o
  .rodata.part_set_generic_name.str1.1
-                0x40854ce0        0xa disk/built-in.o
+                0x40854ce3        0xa disk/built-in.o
  .rodata.phy_detected.str1.1
-                0x40854cea       0x40 drivers/net/built-in.o
+                0x40854ced       0x40 drivers/net/built-in.o
  .rodata.ping_start.str1.1
-                0x40854d2a       0x11 net/built-in.o
+                0x40854d2d       0x11 net/built-in.o
  .rodata.prepare_ring.str1.1
-                0x40854d3b       0xa0 drivers/usb/host/built-in.o
+                0x40854d3e       0xa0 drivers/usb/host/built-in.o
  .rodata.print_buffer.str1.1
-                0x40854ddb        0x6 lib/built-in.o
+                0x40854dde        0x6 lib/built-in.o
                                  0x17 (size before relaxing)
  .rodata.print_freq.str1.1
-                0x40854de1       0x1b lib/built-in.o
+                0x40854de4       0x1b lib/built-in.o
  .rodata.print_mmc_devices.str1.1
-                0x40854dfc       0x12 drivers/mmc/built-in.o
+                0x40854dff       0x12 drivers/mmc/built-in.o
                                  0x1c (size before relaxing)
  .rodata.print_mmcreg.str1.1
-                0x40854e0e       0xc8 cmd/built-in.o
+                0x40854e11       0xc8 cmd/built-in.o
  .rodata.print_num.str1.1
-                0x40854ed6       0x10 cmd/built-in.o
+                0x40854ed9       0x10 cmd/built-in.o
  .rodata.print_partition_extended.str1.1
-                0x40854ee6       0x83 disk/built-in.o
+                0x40854ee9       0x83 disk/built-in.o
                                  0x84 (size before relaxing)
  .rodata.print_size.str1.1
-                0x40854f69       0x15 lib/built-in.o
+                0x40854f6c       0x15 lib/built-in.o
  .rodata.quantifier.str1.1
-                0x40854f7e       0x17 lib/built-in.o
+                0x40854f81       0x17 lib/built-in.o
  .rodata.read_allocated_block.str1.1
-                0x40854f95      0x24e fs/built-in.o
+                0x40854f98      0x24e fs/built-in.o
  .rodata.read_bootsectandvi.str1.1
-                0x408551e3       0x1b fs/built-in.o
+                0x408551e6       0x1b fs/built-in.o
  .rodata.realloc.str1.1
-                0x408551fe       0x25 common/built-in.o
+                0x40855201       0x25 common/built-in.o
  .rodata.record_transfer_result.str1.1
-                0x40855223       0x1d drivers/usb/host/built-in.o
+                0x40855226       0x1d drivers/usb/host/built-in.o
                                  0x3f (size before relaxing)
  .rodata.regex_callback.str1.1
-                0x40855240        0x5 common/built-in.o
+                0x40855243        0x5 common/built-in.o
                                  0x20 (size before relaxing)
  .rodata.regex_sub.str1.1
-                0x40855245       0xbd cmd/built-in.o
+                0x40855248       0xbd cmd/built-in.o
  .rodata.run_list_real.str1.1
-                0x40855302       0x45 common/built-in.o
+                0x40855305       0x45 common/built-in.o
                                  0x4b (size before relaxing)
  .rodata.save_bootdata_to_flash.str1.1
-                0x40855347      0x110 board/hisilicon/hi3516ev200/built-in.o
+                0x4085534a      0x110 board/hisilicon/hi3516ev200/built-in.o
  .rodata.set_default_env.str1.1
-                0x40855457       0x5e common/built-in.o
+                0x4085545a       0x5e common/built-in.o
                                  0x9b (size before relaxing)
  .rodata.set_dev.str1.1
-                0x408554b5       0x39 cmd/built-in.o
+                0x408554b8       0x39 cmd/built-in.o
  .rodata.set_local_var.str1.1
-                0x408554ee       0x59 common/built-in.o
+                0x408554f1       0x59 common/built-in.o
  .rodata.setenv.str1.1
-                0x40855547        0x7 cmd/built-in.o
+                0x4085554a        0x7 cmd/built-in.o
  .rodata.setenv_hex.str1.1
-                0x4085554e        0x4 cmd/built-in.o
+                0x40855551        0x4 cmd/built-in.o
  .rodata.setup_reloc.str1.1
-                0x4085554e       0x50 common/built-in.o
+                0x40855551       0x50 common/built-in.o
  .rodata.sf_env_relocate_spec.str1.1
-                0x4085559e       0x19 common/built-in.o
+                0x408555a1       0x19 common/built-in.o
  .rodata.sf_saveenv.str1.1
-                0x408555b7       0x47 common/built-in.o
+                0x408555ba       0x47 common/built-in.o
                                  0x4d (size before relaxing)
  .rodata.sha1_padding
-                0x408555fe       0x40 lib/built-in.o
+                0x40855601       0x40 lib/built-in.o
  .rodata.show_devices.str1.1
-                0x4085563e       0x21 drivers/built-in.o
+                0x40855641       0x21 drivers/built-in.o
                                  0x2a (size before relaxing)
  .rodata.show_regs.str1.1
-                0x4085565f       0xff arch/arm/lib/built-in.o
+                0x40855662       0xff arch/arm/lib/built-in.o
                                 0x129 (size before relaxing)
  .rodata.source.str1.1
-                0x4085575e       0xf7 cmd/built-in.o
+                0x40855761       0xf7 cmd/built-in.o
                                 0x114 (size before relaxing)
  .rodata.spi_flash_probe.str1.1
-                0x40855855       0x1a drivers/mtd/spi/built-in.o
+                0x40855858       0x1a drivers/mtd/spi/built-in.o
  .rodata.spi_gd25qxxx_qe_enable.str1.1
-                0x4085586f       0x29 drivers/mtd/spi/built-in.o
+                0x40855872       0x29 drivers/mtd/spi/built-in.o
  .rodata.spi_general_entry_4addr.str1.1
-                0x40855898       0x2a drivers/mtd/spi/built-in.o
+                0x4085589b       0x2a drivers/mtd/spi/built-in.o
  .rodata.spi_general_get_flash_register.str1.1
-                0x408558c2       0x2d drivers/mtd/spi/built-in.o
+                0x408558c5       0x2d drivers/mtd/spi/built-in.o
  .rodata.spi_general_qe_enable.str1.1
-                0x408558c2       0x29 drivers/mtd/nand/built-in.o
+                0x408558c5       0x29 drivers/mtd/nand/built-in.o
  .rodata.spi_general_wait_ready.str1.1
-                0x408558eb       0x39 drivers/mtd/nand/built-in.o
+                0x408558ee       0x39 drivers/mtd/nand/built-in.o
  .rodata.spi_general_wait_ready.str1.1
-                0x40855924       0x38 drivers/mtd/spi/built-in.o
+                0x40855927       0x38 drivers/mtd/spi/built-in.o
  .rodata.spi_general_write_enable.str1.1
-                0x4085595c       0x31 drivers/mtd/spi/built-in.o
+                0x4085595f       0x31 drivers/mtd/spi/built-in.o
  .rodata.spi_mx25l25635e_qe_enable.str1.1
-                0x4085598d       0x29 drivers/mtd/spi/built-in.o
+                0x40855990       0x29 drivers/mtd/spi/built-in.o
  .rodata.spi_nand_feature_op.str1.1
-                0x4085598d       0x2d drivers/mtd/nand/built-in.o
+                0x40855990       0x2d drivers/mtd/nand/built-in.o
  .rodata.spi_nand_get_flash_info.str1.1
-                0x4085598d       0x8d drivers/mtd/nand/built-in.o
+                0x40855990       0x8d drivers/mtd/nand/built-in.o
                                  0x92 (size before relaxing)
  .rodata.spi_s25fl256s_entry_4addr.str1.1
-                0x40855a1a       0x2c drivers/mtd/spi/built-in.o
+                0x40855a1d       0x2c drivers/mtd/spi/built-in.o
  .rodata.spi_w25q256fv_entry_4addr.str1.1
-                0x40855a46       0x2b drivers/mtd/spi/built-in.o
+                0x40855a49       0x2b drivers/mtd/spi/built-in.o
  .rodata.spi_w25q256fv_qe_enable.str1.1
-                0x40855a71       0x28 drivers/mtd/spi/built-in.o
+                0x40855a74       0x28 drivers/mtd/spi/built-in.o
  .rodata.ss_bulk_in
-                0x40855a99        0x7 drivers/usb/gadget/hiudc3/built-in.o
-                0x40855a99                ss_bulk_in
+                0x40855a9c        0x7 drivers/usb/gadget/hiudc3/built-in.o
+                0x40855a9c                ss_bulk_in
  .rodata.ss_bulk_out
-                0x40855aa0        0x7 drivers/usb/gadget/hiudc3/built-in.o
-                0x40855aa0                ss_bulk_out
+                0x40855aa3        0x7 drivers/usb/gadget/hiudc3/built-in.o
+                0x40855aa3                ss_bulk_out
  .rodata.stdio_add_devices.str1.1
-                0x40855aa7        0x7 common/built-in.o
+                0x40855aaa        0x7 common/built-in.o
  .rodata.stdio_print_current_devices.str1.1
-                0x40855aa7       0x70 common/built-in.o
+                0x40855aaa       0x70 common/built-in.o
                                  0x74 (size before relaxing)
  .rodata.store_char_in_data.str1.1
-                0x40855b17       0x1f lib/built-in.o
+                0x40855b1a       0x1f lib/built-in.o
  .rodata.str1.1
-                0x40855b36       0xeb arch/arm/lib/built-in.o
+                0x40855b39       0xeb arch/arm/lib/built-in.o
  .rodata.str1.1
-                0x40855c21     0x36aa cmd/built-in.o
+                0x40855c24     0x36aa cmd/built-in.o
                                0x376d (size before relaxing)
  .rodata.str1.1
-                0x408592cb      0x767 common/built-in.o
+                0x408592ce      0x767 common/built-in.o
                                 0x7e8 (size before relaxing)
  .rodata.str1.1
-                0x40859a32       0x1f disk/built-in.o
+                0x40859a35       0x1f disk/built-in.o
                                  0x22 (size before relaxing)
  .rodata.str1.1
-                0x40859a51       0x21 drivers/built-in.o
+                0x40859a54       0x21 drivers/built-in.o
  .rodata.str1.1
-                0x40859a72      0x2db drivers/ddr/hisilicon/hi3516ev200/built-in.o
+                0x40859a75      0x2db drivers/ddr/hisilicon/hi3516ev200/built-in.o
                                 0x2df (size before relaxing)
  .rodata.str1.1
-                0x40859d4d        0x4 drivers/mmc/built-in.o
+                0x40859d50        0x4 drivers/mmc/built-in.o
  .rodata.str1.1
-                0x40859d4d       0x10 drivers/mtd/built-in.o
+                0x40859d50       0x10 drivers/mtd/built-in.o
                                  0x13 (size before relaxing)
  .rodata.str1.1
-                0x40859d5d      0x891 drivers/mtd/nand/built-in.o
+                0x40859d60      0x891 drivers/mtd/nand/built-in.o
                                 0x8a4 (size before relaxing)
  .rodata.str1.1
-                0x4085a5ee      0x209 drivers/mtd/spi/built-in.o
+                0x4085a5f1      0x209 drivers/mtd/spi/built-in.o
                                 0x218 (size before relaxing)
  .rodata.str1.1
-                0x4085a7f7        0x9 drivers/serial/built-in.o
+                0x4085a7fa        0x9 drivers/serial/built-in.o
  .rodata.str1.1
-                0x4085a7f7       0x11 fs/built-in.o
+                0x4085a7fa       0x11 fs/built-in.o
                                  0x15 (size before relaxing)
  .rodata.str1.1
-                0x4085a808      0x16d lib/built-in.o
+                0x4085a80b      0x16d lib/built-in.o
                                 0x181 (size before relaxing)
  .rodata.str1.1
-                0x4085a975        0x6 net/built-in.o
+                0x4085a978        0x6 net/built-in.o
                                  0x3e (size before relaxing)
  .rodata.str1.1
-                0x4085a97b       0xdc test/dm/built-in.o
+                0x4085a97e       0xdc test/dm/built-in.o
                                  0xe2 (size before relaxing)
  .rodata.string.str1.1
-                0x4085aa57        0x7 lib/built-in.o
+                0x4085aa5a        0x7 lib/built-in.o
  .rodata.submit_bulk_msg.str1.1
-                0x4085aa5e       0x19 drivers/usb/host/built-in.o
+                0x4085aa61       0x19 drivers/usb/host/built-in.o
  .rodata.submit_control_msg.str1.1
-                0x4085aa77      0x180 drivers/usb/host/built-in.o
+                0x4085aa7a      0x180 drivers/usb/host/built-in.o
  .rodata.substitute.str1.1
-                0x4085abf7       0x28 cmd/built-in.o
+                0x4085abfa       0x28 cmd/built-in.o
  .rodata.syntax_err.str1.1
-                0x4085ac1f        0xe common/built-in.o
+                0x4085ac22        0xe common/built-in.o
  .rodata.tab_seq
-                0x4085ac2d        0x9 common/built-in.o
+                0x4085ac30        0x9 common/built-in.o
  .rodata.test_block_type.str1.1
-                0x4085ac36        0xa disk/built-in.o
+                0x4085ac39        0xa disk/built-in.o
  .rodata.tftp_handler.str1.1
-                0x4085ac40       0x72 net/built-in.o
+                0x4085ac43       0x72 net/built-in.o
                                  0x80 (size before relaxing)
  .rodata.tftp_send.str1.1
-                0x4085acb2       0x36 net/built-in.o
+                0x4085acb5       0x36 net/built-in.o
                                  0x42 (size before relaxing)
  .rodata.tftp_start.str1.1
-                0x4085ace8      0x156 net/built-in.o
+                0x4085aceb      0x156 net/built-in.o
                                 0x17d (size before relaxing)
  .rodata.tftp_timeout_handler.str1.1
-                0x4085ae3e       0x2a net/built-in.o
+                0x4085ae41       0x2a net/built-in.o
                                  0x2d (size before relaxing)
  .rodata.u_boot_hush_start.str1.1
-                0x4085ae68       0x12 common/built-in.o
+                0x4085ae6b       0x12 common/built-in.o
  .rodata.uclass_resolve_seq.str1.1
-                0x4085ae7a       0x27 drivers/built-in.o
+                0x4085ae7d       0x27 drivers/built-in.o
  .rodata.us_direction
-                0x4085aea1       0x20 common/built-in.o
+                0x4085aea4       0x20 common/built-in.o
  .rodata.usb3_do_setup.str1.1
-                0x4085aec1       0x18 drivers/usb/gadget/hiudc3/built-in.o
+                0x4085aec4       0x18 drivers/usb/gadget/hiudc3/built-in.o
  .rodata.usb3_handle_protocol.str1.1
-                0x4085aed9       0x1b drivers/usb/gadget/hiudc3/built-in.o
+                0x4085aedc       0x1b drivers/usb/gadget/hiudc3/built-in.o
                                  0x1d (size before relaxing)
  .rodata.usb_alloc_new_device.str1.1
-                0x4085aef4       0x25 common/built-in.o
+                0x4085aef7       0x25 common/built-in.o
  .rodata.usb_display_class_sub.str1.1
-                0x4085af19       0xb6 cmd/built-in.o
+                0x4085af1c       0xb6 cmd/built-in.o
                                  0xbc (size before relaxing)
  .rodata.usb_display_config.str1.1
-                0x4085afcf      0x10d cmd/built-in.o
+                0x4085afd2      0x10d cmd/built-in.o
                                 0x11a (size before relaxing)
  .rodata.usb_display_desc.part.1.str1.1
-                0x4085b0dc       0xac cmd/built-in.o
+                0x4085b0df       0xac cmd/built-in.o
  .rodata.usb_display_string.str1.1
-                0x4085b188        0xd cmd/built-in.o
+                0x4085b18b        0xd cmd/built-in.o
  .rodata.usb_get_class_desc.str1.1
-                0x4085b195       0x64 cmd/built-in.o
+                0x4085b198       0x64 cmd/built-in.o
                                  0x65 (size before relaxing)
  .rodata.usb_get_configuration_len.str1.1
-                0x4085b1f9       0x58 common/built-in.o
+                0x4085b1fc       0x58 common/built-in.o
  .rodata.usb_hub_configure.str1.1
-                0x4085b251       0x80 common/built-in.o
+                0x4085b254       0x80 common/built-in.o
  .rodata.usb_hub_port_connect_change.str1.1
-                0x4085b2d1       0x39 common/built-in.o
+                0x4085b2d4       0x39 common/built-in.o
  .rodata.usb_init.str1.1
-                0x4085b30a       0xb3 common/built-in.o
+                0x4085b30d       0xb3 common/built-in.o
  .rodata.usb_lowlevel_init.str1.1
-                0x4085b3bd       0x44 drivers/usb/host/built-in.o
+                0x4085b3c0       0x44 drivers/usb/host/built-in.o
  .rodata.usb_select_config.str1.1
-                0x4085b401      0x220 common/built-in.o
+                0x4085b404      0x220 common/built-in.o
  .rodata.usb_set_interface.str1.1
-                0x4085b621       0x1f common/built-in.o
+                0x4085b624       0x1f common/built-in.o
  .rodata.usb_setup_device.str1.1
-                0x4085b640       0x91 common/built-in.o
+                0x4085b643       0x91 common/built-in.o
  .rodata.usb_show_tree_graph.str1.1
-                0x4085b6d1       0x2b cmd/built-in.o
+                0x4085b6d4       0x2b cmd/built-in.o
                                  0x3a (size before relaxing)
  .rodata.usb_stop.str1.1
-                0x4085b6fc       0x22 common/built-in.o
+                0x4085b6ff       0x22 common/built-in.o
  .rodata.usb_stor_CBI_get_status.isra.4.str1.1
-                0x4085b71e       0x1f common/built-in.o
+                0x4085b721       0x1f common/built-in.o
  .rodata.usb_stor_CB_transport.str1.1
-                0x4085b73d       0x6e common/built-in.o
+                0x4085b740       0x6e common/built-in.o
  .rodata.usb_stor_get_info.str1.1
-                0x4085b7ab       0x5d common/built-in.o
+                0x4085b7ae       0x5d common/built-in.o
  .rodata.usb_stor_info.str1.1
-                0x4085b808       0x32 common/built-in.o
+                0x4085b80b       0x32 common/built-in.o
                                  0x40 (size before relaxing)
  .rodata.usb_stor_scan.str1.1
-                0x4085b83a       0x75 common/built-in.o
+                0x4085b83d       0x75 common/built-in.o
  .rodata.usb_storage_probe.str1.1
-                0x4085b8af       0x5c common/built-in.o
+                0x4085b8b2       0x5c common/built-in.o
  .rodata.uuid_bin_to_str.str1.1
-                0x4085b90b        0x5 lib/built-in.o
+                0x4085b90e        0x5 lib/built-in.o
  .rodata.valid_elf_image.str1.1
-                0x4085b90b       0x52 cmd/built-in.o
+                0x4085b90e       0x52 cmd/built-in.o
  .rodata.validate_gpt_entries.str1.1
-                0x4085b95d       0x40 disk/built-in.o
+                0x4085b960       0x40 disk/built-in.o
  .rodata.validate_gpt_header.str1.1
-                0x4085b99d       0xe1 disk/built-in.o
+                0x4085b9a0       0xe1 disk/built-in.o
  .rodata.var_complete.str1.1
-                0x4085ba7e        0x1 common/built-in.o
+                0x4085ba81        0x1 common/built-in.o
  .rodata.verify_bbt_descr.str1.1
-                0x4085ba7e       0x3e drivers/mtd/nand/built-in.o
+                0x4085ba81       0x3e drivers/mtd/nand/built-in.o
  .rodata.version_string
-                0x4085babc       0x48 cmd/built-in.o
-                0x4085babc                version_string
+                0x4085babf       0x48 cmd/built-in.o
+                0x4085babf                version_string
  .rodata.xhci_alloc_virt_device.str1.1
-                0x4085bb04       0xa5 drivers/usb/host/built-in.o
+                0x4085bb07       0xa5 drivers/usb/host/built-in.o
  .rodata.xhci_configure_endpoints.str1.1
-                0x4085bba9       0x6c drivers/usb/host/built-in.o
+                0x4085bbac       0x6c drivers/usb/host/built-in.o
                                  0x8e (size before relaxing)
  .rodata.xhci_mem_init.str1.1
-                0x4085bc15       0x19 drivers/usb/host/built-in.o
+                0x4085bc18       0x19 drivers/usb/host/built-in.o
  .rodata.xhci_reset.str1.1
-                0x4085bc2e       0x28 drivers/usb/host/built-in.o
+                0x4085bc31       0x28 drivers/usb/host/built-in.o
  .rodata.xhci_ring_free.str1.1
-                0x4085bc56       0x1c drivers/usb/host/built-in.o
+                0x4085bc59       0x1c drivers/usb/host/built-in.o
                                  0x3e (size before relaxing)
  .rodata.xhci_wait_for_event.str1.1
-                0x4085bc72       0x70 drivers/usb/host/built-in.o
+                0x4085bc75       0x70 drivers/usb/host/built-in.o
  .rodata.xmalloc.str1.1
-                0x4085bce2       0x1e common/built-in.o
+                0x4085bce5       0x1e common/built-in.o
  .rodata.xyzModem_error.str1.1
-                0x4085bd00        0xe common/built-in.o
+                0x4085bd03        0xe common/built-in.o
  .rodata.xyzModem_stream_close.str1.1
-                0x4085bd0e       0x47 common/built-in.o
+                0x4085bd11       0x47 common/built-in.o
                                  0x4b (size before relaxing)
  .rodata.xyzModem_stream_open.str1.1
-                0x4085bd55        0x2 common/built-in.o
+                0x4085bd58        0x2 common/built-in.o
 
 .hash           0x4085bd58       0x18
  .hash          0x4085bd58       0x18 arch/arm/cpu/armv7/start.o
@@ -10359,58 +10359,58 @@ OUTPUT(u-boot elf32-littlearm)
  .debug_aranges
                 0x00004dd8       0x20 arch/arm/lib/lib.a(div0.o)
 
-.debug_str      0x00000000    0x1aab3
- .debug_str     0x00000000       0xb0 arch/arm/cpu/armv7/start.o
- .debug_str     0x000000b0      0xe06 arch/arm/cpu/armv7/built-in.o
-                               0x47cc (size before relaxing)
- .debug_str     0x00000eb6     0x12e9 arch/arm/lib/built-in.o
-                               0x72e7 (size before relaxing)
- .debug_str     0x0000219f      0xe1c board/hisilicon/hi3516ev200/built-in.o
-                               0x1fdd (size before relaxing)
- .debug_str     0x00002fbb     0x42a5 cmd/built-in.o
-                              0x21b0a (size before relaxing)
- .debug_str     0x00007260     0x47d7 common/built-in.o
-                              0x2fef7 (size before relaxing)
- .debug_str     0x0000ba37      0xb65 disk/built-in.o
-                               0x4546 (size before relaxing)
- .debug_str     0x0000c59c      0xfc5 drivers/built-in.o
-                               0xd3e6 (size before relaxing)
- .debug_str     0x0000d561      0x57b drivers/ddr/hisilicon/hi3516ev200/built-in.o
-                               0x1ee0 (size before relaxing)
- .debug_str     0x0000dadc      0xbaf drivers/mmc/built-in.o
-                               0x6a4c (size before relaxing)
- .debug_str     0x0000e68b      0xcc1 drivers/mtd/built-in.o
-                               0x55cd (size before relaxing)
- .debug_str     0x0000f34c     0x1e2f drivers/mtd/nand/built-in.o
-                              0x115cc (size before relaxing)
- .debug_str     0x0001117b      0xd31 drivers/mtd/spi/built-in.o
-                               0x45d7 (size before relaxing)
- .debug_str     0x00011eac      0x698 drivers/net/built-in.o
-                               0x5c82 (size before relaxing)
- .debug_str     0x00012544      0x318 drivers/serial/built-in.o
-                               0x253f (size before relaxing)
- .debug_str     0x0001285c     0x2f30 drivers/usb/gadget/hiudc3/built-in.o
-                               0x93ad (size before relaxing)
- .debug_str     0x0001578c      0xccc drivers/usb/host/built-in.o
-                               0x50b6 (size before relaxing)
- .debug_str     0x00016458     0x1368 fs/built-in.o
-                               0x843b (size before relaxing)
- .debug_str     0x000177c0     0x1f14 lib/built-in.o
-                              0x1ab70 (size before relaxing)
- .debug_str     0x000196d4     0x12ed net/built-in.o
-                               0xaf97 (size before relaxing)
- .debug_str     0x0001a9c1       0x79 test/dm/built-in.o
-                                0xc13 (size before relaxing)
- .debug_str     0x0001aa3a       0x17 arch/arm/lib/lib.a(ashldi3.o)
-                                 0xac (size before relaxing)
- .debug_str     0x0001aa51       0x17 arch/arm/lib/lib.a(ashrdi3.o)
-                                 0xac (size before relaxing)
- .debug_str     0x0001aa68       0x19 arch/arm/lib/lib.a(lib1funcs.o)
-                                 0xae (size before relaxing)
- .debug_str     0x0001aa81       0x17 arch/arm/lib/lib.a(lshrdi3.o)
-                                 0xac (size before relaxing)
- .debug_str     0x0001aa98       0x1b arch/arm/lib/lib.a(div0.o)
-                                0x1e9 (size before relaxing)
+.debug_str      0x00000000    0x1aa3e
+ .debug_str     0x00000000       0x3b arch/arm/cpu/armv7/start.o
+ .debug_str     0x0000003b      0xe06 arch/arm/cpu/armv7/built-in.o
+                               0x4424 (size before relaxing)
+ .debug_str     0x00000e41     0x12e9 arch/arm/lib/built-in.o
+                               0x6d6b (size before relaxing)
+ .debug_str     0x0000212a      0xe1c board/hisilicon/hi3516ev200/built-in.o
+                               0x1f68 (size before relaxing)
+ .debug_str     0x00002f46     0x42a5 cmd/built-in.o
+                              0x20b80 (size before relaxing)
+ .debug_str     0x000071eb     0x47d7 common/built-in.o
+                              0x2ec3a (size before relaxing)
+ .debug_str     0x0000b9c2      0xb65 disk/built-in.o
+                               0x4372 (size before relaxing)
+ .debug_str     0x0000c527      0xfc5 drivers/built-in.o
+                               0xcdf5 (size before relaxing)
+ .debug_str     0x0000d4ec      0x57b drivers/ddr/hisilicon/hi3516ev200/built-in.o
+                               0x1d81 (size before relaxing)
+ .debug_str     0x0000da67      0xbaf drivers/mmc/built-in.o
+                               0x678e (size before relaxing)
+ .debug_str     0x0000e616      0xcc1 drivers/mtd/built-in.o
+                               0x5384 (size before relaxing)
+ .debug_str     0x0000f2d7     0x1e2f drivers/mtd/nand/built-in.o
+                              0x110c5 (size before relaxing)
+ .debug_str     0x00011106      0xd31 drivers/mtd/spi/built-in.o
+                               0x4403 (size before relaxing)
+ .debug_str     0x00011e37      0x698 drivers/net/built-in.o
+                               0x594f (size before relaxing)
+ .debug_str     0x000124cf      0x318 drivers/serial/built-in.o
+                               0x2455 (size before relaxing)
+ .debug_str     0x000127e7     0x2f30 drivers/usb/gadget/hiudc3/built-in.o
+                               0x9164 (size before relaxing)
+ .debug_str     0x00015717      0xccc drivers/usb/host/built-in.o
+                               0x4f57 (size before relaxing)
+ .debug_str     0x000163e3     0x1368 fs/built-in.o
+                               0x8108 (size before relaxing)
+ .debug_str     0x0001774b     0x1f14 lib/built-in.o
+                              0x195f5 (size before relaxing)
+ .debug_str     0x0001965f     0x12ed net/built-in.o
+                               0xab7a (size before relaxing)
+ .debug_str     0x0001a94c       0x79 test/dm/built-in.o
+                                0xb9e (size before relaxing)
+ .debug_str     0x0001a9c5       0x17 arch/arm/lib/lib.a(ashldi3.o)
+                                 0x37 (size before relaxing)
+ .debug_str     0x0001a9dc       0x17 arch/arm/lib/lib.a(ashrdi3.o)
+                                 0x37 (size before relaxing)
+ .debug_str     0x0001a9f3       0x19 arch/arm/lib/lib.a(lib1funcs.o)
+                                 0x39 (size before relaxing)
+ .debug_str     0x0001aa0c       0x17 arch/arm/lib/lib.a(lshrdi3.o)
+                                 0x37 (size before relaxing)
+ .debug_str     0x0001aa23       0x1b arch/arm/lib/lib.a(div0.o)
+                                0x174 (size before relaxing)
 
 .debug_frame    0x00000000     0xdd2c
  .debug_frame   0x00000000      0x2ac arch/arm/cpu/armv7/built-in.o
@@ -10435,27 +10435,27 @@ OUTPUT(u-boot elf32-littlearm)
  .debug_frame   0x0000dc90       0x7c test/dm/built-in.o
  .debug_frame   0x0000dd0c       0x20 arch/arm/lib/lib.a(div0.o)
 
-.debug_loc      0x00000000    0x76067
+.debug_loc      0x00000000    0x76025
  .debug_loc     0x00000000      0x568 arch/arm/cpu/armv7/built-in.o
  .debug_loc     0x00000568      0x983 arch/arm/lib/built-in.o
  .debug_loc     0x00000eeb      0x293 board/hisilicon/hi3516ev200/built-in.o
  .debug_loc     0x0000117e     0xe51c cmd/built-in.o
- .debug_loc     0x0000f69a    0x14a73 common/built-in.o
- .debug_loc     0x0002410d     0x2d42 disk/built-in.o
- .debug_loc     0x00026e4f     0x4b2e drivers/built-in.o
- .debug_loc     0x0002b97d      0xd0c drivers/ddr/hisilicon/hi3516ev200/built-in.o
- .debug_loc     0x0002c689     0x6764 drivers/mmc/built-in.o
- .debug_loc     0x00032ded     0x2f13 drivers/mtd/built-in.o
- .debug_loc     0x00035d00     0xd644 drivers/mtd/nand/built-in.o
- .debug_loc     0x00043344     0x2bc9 drivers/mtd/spi/built-in.o
- .debug_loc     0x00045f0d     0x17ba drivers/net/built-in.o
- .debug_loc     0x000476c7      0x8a4 drivers/serial/built-in.o
- .debug_loc     0x00047f6b     0x4328 drivers/usb/gadget/hiudc3/built-in.o
- .debug_loc     0x0004c293     0x3a1e drivers/usb/host/built-in.o
- .debug_loc     0x0004fcb1     0x5e54 fs/built-in.o
- .debug_loc     0x00055b05    0x1b5de lib/built-in.o
- .debug_loc     0x000710e3     0x4cfa net/built-in.o
- .debug_loc     0x00075ddd      0x28a test/dm/built-in.o
+ .debug_loc     0x0000f69a    0x14a31 common/built-in.o
+ .debug_loc     0x000240cb     0x2d42 disk/built-in.o
+ .debug_loc     0x00026e0d     0x4b2e drivers/built-in.o
+ .debug_loc     0x0002b93b      0xd0c drivers/ddr/hisilicon/hi3516ev200/built-in.o
+ .debug_loc     0x0002c647     0x6764 drivers/mmc/built-in.o
+ .debug_loc     0x00032dab     0x2f13 drivers/mtd/built-in.o
+ .debug_loc     0x00035cbe     0xd644 drivers/mtd/nand/built-in.o
+ .debug_loc     0x00043302     0x2bc9 drivers/mtd/spi/built-in.o
+ .debug_loc     0x00045ecb     0x17ba drivers/net/built-in.o
+ .debug_loc     0x00047685      0x8a4 drivers/serial/built-in.o
+ .debug_loc     0x00047f29     0x4328 drivers/usb/gadget/hiudc3/built-in.o
+ .debug_loc     0x0004c251     0x3a1e drivers/usb/host/built-in.o
+ .debug_loc     0x0004fc6f     0x5e54 fs/built-in.o
+ .debug_loc     0x00055ac3    0x1b5de lib/built-in.o
+ .debug_loc     0x000710a1     0x4cfa net/built-in.o
+ .debug_loc     0x00075d9b      0x28a test/dm/built-in.o
 
 .debug_ranges   0x00000000     0xb370
  .debug_ranges  0x00000000      0x160 arch/arm/cpu/armv7/built-in.o

@@ -19,8 +19,8 @@ deps_tools/envcrc.o := \
   include/libfdt_env.h \
   include/compiler.h \
     $(wildcard include/config/use/stdint.h) \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/features.h \
   /usr/include/x86_64-linux-gnu/bits/predefs.h \
@@ -59,7 +59,7 @@ deps_tools/envcrc.o := \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -89,7 +89,7 @@ deps_tools/envcrc.o := \
   /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
     $(wildcard include/config/64bit.h) \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdbool.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -218,6 +218,7 @@ deps_tools/envcrc.o := \
   include/linux/sizes.h \
   arch/arm/include/asm/arch/platform.h \
     $(wildcard include/config/reg/base.h) \
+  include/configs/dopi.h \
   include/config_distro_defaults.h \
     $(wildcard include/config/cmd/distro/defaults/h.h) \
     $(wildcard include/config/bootp/bootpath.h) \

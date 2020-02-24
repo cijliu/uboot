@@ -219,6 +219,7 @@ deps_drivers/mtd/nand/hifmc100/hifmc_spi_nand_ids.o := \
   include/linux/sizes.h \
   arch/arm/include/asm/arch/platform.h \
     $(wildcard include/config/reg/base.h) \
+  include/configs/dopi.h \
   include/config_distro_defaults.h \
     $(wildcard include/config/cmd/distro/defaults/h.h) \
     $(wildcard include/config/bootp/bootpath.h) \

@@ -6,8 +6,7 @@ deps_tools/zynqimage.o := \
   include/libfdt_env.h \
   include/compiler.h \
     $(wildcard include/config/use/stdint.h) \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.4.7/include/stddef.h \
   /usr/include/stdint.h \
   /usr/include/features.h \
   /usr/include/x86_64-linux-gnu/bits/predefs.h \
@@ -46,7 +45,7 @@ deps_tools/zynqimage.o := \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.4.7/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -76,7 +75,7 @@ deps_tools/zynqimage.o := \
   /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
     $(wildcard include/config/64bit.h) \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.4.7/include/stdbool.h \
   tools/imagetool.h \
   tools/os_support.h \
   include/compiler.h \

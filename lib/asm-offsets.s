@@ -2199,10 +2199,6 @@ main:
 	.ascii	"ih_magic\000"
 .LASF62:
 	.ascii	"bi_arch_number\000"
-.LASF197:
-	.ascii	"/home/phoenix/work/HI3516EV200/Hi3516EV200R001C01SP"
-	.ascii	"C010/01.software/board/Hi3516EV200_SDK_V1.0.1.0/osd"
-	.ascii	"rv/opensource/uboot/u-boot-2016.11\000"
 .LASF102:
 	.ascii	"legacy_hdr_os\000"
 .LASF123:
@@ -2307,8 +2303,8 @@ main:
 	.ascii	"arch\000"
 .LASF78:
 	.ascii	"fdt32_t\000"
-.LASF137:
-	.ascii	"meminfo\000"
+.LASF197:
+	.ascii	"/home/phoenix/uboot\000"
 .LASF103:
 	.ascii	"legacy_hdr_os_copy\000"
 .LASF37:
@@ -2463,6 +2459,8 @@ main:
 	.ascii	"phys_addr_t\000"
 .LASF51:
 	.ascii	"bi_sramstart\000"
+.LASF137:
+	.ascii	"meminfo\000"
 .LASF95:
 	.ascii	"image_len\000"
 .LASF33:

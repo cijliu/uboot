@@ -14,7 +14,7 @@ deps_scripts/kconfig/conf.o := \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.4.7/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/xlocale.h \
   /usr/include/ctype.h \
@@ -27,7 +27,7 @@ deps_scripts/kconfig/conf.o := \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.4.7/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -73,7 +73,7 @@ deps_scripts/kconfig/conf.o := \
     $(wildcard include/config/config.h) \
   /usr/include/assert.h \
   scripts/kconfig/list.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/4.4.7/include/stdbool.h \
   /usr/include/libintl.h \
   scripts/kconfig/lkc_proto.h \
 

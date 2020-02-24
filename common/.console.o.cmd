@@ -239,6 +239,7 @@ deps_common/console.o := \
   include/linux/sizes.h \
   arch/arm/include/asm/arch/platform.h \
     $(wildcard include/config/reg/base.h) \
+  include/configs/dopi.h \
   include/config_distro_defaults.h \
     $(wildcard include/config/cmd/distro/defaults/h.h) \
     $(wildcard include/config/bootp/bootpath.h) \

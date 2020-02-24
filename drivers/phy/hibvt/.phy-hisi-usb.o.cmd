@@ -170,6 +170,7 @@ deps_drivers/phy/hibvt/phy-hisi-usb.o := \
     $(wildcard include/config/audio/enable.h) \
   include/linux/sizes.h \
   arch/arm/include/asm/arch/platform.h \
+  include/configs/dopi.h \
   include/config_distro_defaults.h \
     $(wildcard include/config/cmd/distro/defaults/h.h) \
     $(wildcard include/config/bootp/bootpath.h) \

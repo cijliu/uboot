@@ -21,7 +21,7 @@
 
 #include <linux/sizes.h>
 #include <asm/arch/platform.h>
-
+#include "dopi.h"
 #define CONFIG_SYS_CACHELINE_SIZE   64
 
 /*#define CONFIG_REMAKE_ELF*/
@@ -173,8 +173,15 @@
  */
 
 /* Assume we boot with root on the seventh partition of eMMC */
-#define CONFIG_BOOTARGS 	"mem=40M console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=jffs2 rw mtdparts=hi_sfc:512K(boot),5120K(kernel),10752K(rootfs)"
+#ifdef DOPI_SPI_NAND
+/*#define CONFIG_BOOTARGS 	"mem=40M console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=jffs2 rw mtdparts=hi_sfc:512K(boot),5120K(kernel),10752K(rootfs)"*/
+#define CONFIG_BOOTARGS 	"mem=40M console=tty0 console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=yaffs2 rw mtdparts=hinand:512K(boot),5120K(kernel),240M(rootfs)"
+#define CONFIG_BOOTCOMMAND 	"nand read 0x42000000 0x80000 0x500000;bootm 0x42000000"
+/*#define CONFIG_BOOTCOMMAND 	"sf probe 0;sf read 0x42000000 0x80000 0x500000;bootm 0x42000000"*/
+#else
+#define CONFIG_BOOTARGS 	"mem=40M console=tty0 console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=jffs2 rw mtdparts=hi_sfc:512K(boot),5120K(kernel),10752K(rootfs)"
 #define CONFIG_BOOTCOMMAND 	"sf probe 0;sf read 0x42000000 0x80000 0x500000;bootm 0x42000000"
+#endif
 #define CONFIG_BOOTDELAY	2
 #define CONFIG_SYS_USB_XHCI_MAX_ROOT_PORTS 2
 #define BOOT_TARGET_DEVICES(func) \
@@ -191,7 +198,7 @@
 #endif
 
 /* env in flash instead of CFG_ENV_IS_NOWHERE */
-#define CONFIG_ENV_OFFSET       0x80000      /* environment starts here */
+#define CONFIG_ENV_OFFSET       0x40000      /* environment starts here */
 
 #define CONFIG_ENV_SIZE         0x40000
 #define CONFIG_ENV_SECT_SIZE        0x10000

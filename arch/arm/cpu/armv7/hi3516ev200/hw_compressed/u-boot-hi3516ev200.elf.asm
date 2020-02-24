@@ -249,7 +249,7 @@ Disassembly of section .text:
 407016e8:	12050000 	.word	0x12050000
 407016ec:	02faf080 	.word	0x02faf080
 407016f0:	40700000 	.word	0x40700000
-407016f4:	4073bdb4 	.word	0x4073bdb4
+407016f4:	4073bda4 	.word	0x4073bda4
 407016f8:	40701458 	.word	0x40701458
 
 407016fc <reg_read>:
@@ -3023,7 +3023,7 @@ Disassembly of section .text:
 40703fe0:	e58230b0 	str	r3, [r2, #176]	; 0xb0
 40703fe4:	e12fff1e 	bx	lr
 40703fe8:	12028000 	.word	0x12028000
-40703fec:	4073bdb4 	.word	0x4073bdb4
+40703fec:	4073bda4 	.word	0x4073bda4
 40703ff0:	12010000 	.word	0x12010000
 40703ff4:	120dc000 	.word	0x120dc000
 
@@ -3039,7 +3039,7 @@ Disassembly of section .text:
 40704018:	e59f300c 	ldr	r3, [pc, #12]	; 4070402c <ddr_cmd_site_restore+0x34>
 4070401c:	e58320b0 	str	r2, [r3, #176]	; 0xb0
 40704020:	e12fff1e 	bx	lr
-40704024:	4073bdb4 	.word	0x4073bdb4
+40704024:	4073bda4 	.word	0x4073bda4
 40704028:	12028000 	.word	0x12028000
 4070402c:	120dc000 	.word	0x120dc000
 
@@ -3236,10 +3236,10 @@ Disassembly of section .text:
 40704284:	e59f3010 	ldr	r3, [pc, #16]	; 4070429c <hw_dec_sop_eop_first_set+0x48>
 40704288:	e5830000 	str	r0, [r3]
 4070428c:	e12fff1e 	bx	lr
-40704290:	4073bdf8 	.word	0x4073bdf8
-40704294:	4073bdf4 	.word	0x4073bdf4
-40704298:	4073bdf0 	.word	0x4073bdf0
-4070429c:	4073bdec 	.word	0x4073bdec
+40704290:	4073bde8 	.word	0x4073bde8
+40704294:	4073bde4 	.word	0x4073bde4
+40704298:	4073bde0 	.word	0x4073bde0
+4070429c:	4073bddc 	.word	0x4073bddc
 
 407042a0 <hw_dec_intr_proc>:
 407042a0:	e59f30a0 	ldr	r3, [pc, #160]	; 40704348 <hw_dec_intr_proc+0xa8>
@@ -3330,9 +3330,9 @@ Disassembly of section .text:
 407043ec:	f57ff05f 	dmb	sy
 407043f0:	e58e302c 	str	r3, [lr, #44]	; 0x2c
 407043f4:	eaffffe2 	b	40704384 <hw_dec_start+0x34>
-407043f8:	4073bdf8 	.word	0x4073bdf8
+407043f8:	4073bde8 	.word	0x4073bde8
 407043fc:	11312000 	.word	0x11312000
-40704400:	4073bdf4 	.word	0x4073bdf4
+40704400:	4073bde4 	.word	0x4073bde4
 40704404:	11314000 	.word	0x11314000
 
 40704408 <hw_dec_wait_finish>:
@@ -3382,7 +3382,7 @@ Disassembly of section .text:
 407044ac:	e2600000 	rsb	r0, r0, #0
 407044b0:	e28dd014 	add	sp, sp, #20
 407044b4:	e8bd80f0 	pop	{r4, r5, r6, r7, pc}
-407044b8:	4073bdfc 	.word	0x4073bdfc
+407044b8:	4073bdec 	.word	0x4073bdec
 407044bc:	11312000 	.word	0x11312000
 
 407044c0 <hw_dec_init>:
@@ -3473,20 +3473,20 @@ Disassembly of section .text:
 40704600:	e59f001c 	ldr	r0, [pc, #28]	; 40704624 <start_armboot+0xb8>
 40704604:	ebfffea4 	bl	4070409c <uart_early_puts>
 40704608:	eafffffe 	b	40704608 <start_armboot+0x9c>
-4070460c:	4073bd9c 	.word	0x4073bd9c
-40704610:	4073bdfc 	.word	0x4073bdfc
+4070460c:	4073bd8c 	.word	0x4073bd8c
+40704610:	4073bdec 	.word	0x4073bdec
 40704614:	40800000 	.word	0x40800000
-40704618:	4073bd05 	.word	0x4073bd05
+40704618:	4073bcf6 	.word	0x4073bcf6
 4070461c:	407047a0 	.word	0x407047a0
-40704620:	4073bdaa 	.word	0x4073bdaa
-40704624:	4073bdae 	.word	0x4073bdae
+40704620:	4073bd9a 	.word	0x4073bd9a
+40704624:	4073bd9e 	.word	0x4073bd9e
 
 40704628 <hang>:
 40704628:	e92d4010 	push	{r4, lr}
 4070462c:	e59f0004 	ldr	r0, [pc, #4]	; 40704638 <hang+0x10>
 40704630:	ebfffe99 	bl	4070409c <uart_early_puts>
 40704634:	eafffffe 	b	40704634 <hang+0xc>
-40704638:	4073bd72 	.word	0x4073bd72
+40704638:	4073bd62 	.word	0x4073bd62
 
 4070463c <do_bad_sync>:
 4070463c:	e92d4010 	push	{r4, lr}
@@ -3497,8 +3497,8 @@ Disassembly of section .text:
 40704650:	e3a00000 	mov	r0, #0
 40704654:	e8bd4010 	pop	{r4, lr}
 40704658:	ea000047 	b	4070477c <reset_cpu>
-4070465c:	4073bd4d 	.word	0x4073bd4d
-40704660:	4073bd5e 	.word	0x4073bd5e
+4070465c:	4073bd3d 	.word	0x4073bd3d
+40704660:	4073bd4e 	.word	0x4073bd4e
 
 40704664 <do_sync>:
 40704664:	e92d4010 	push	{r4, lr}
@@ -3509,8 +3509,8 @@ Disassembly of section .text:
 40704678:	e3a00000 	mov	r0, #0
 4070467c:	e8bd4010 	pop	{r4, lr}
 40704680:	ea00003d 	b	4070477c <reset_cpu>
-40704684:	4073bd51 	.word	0x4073bd51
-40704688:	4073bd5e 	.word	0x4073bd5e
+40704684:	4073bd41 	.word	0x4073bd41
+40704688:	4073bd4e 	.word	0x4073bd4e
 
 4070468c <do_bad_error>:
 4070468c:	e92d4010 	push	{r4, lr}
@@ -3521,8 +3521,8 @@ Disassembly of section .text:
 407046a0:	e3a00000 	mov	r0, #0
 407046a4:	e8bd4010 	pop	{r4, lr}
 407046a8:	ea000033 	b	4070477c <reset_cpu>
-407046ac:	4073bd0c 	.word	0x4073bd0c
-407046b0:	4073bd5e 	.word	0x4073bd5e
+407046ac:	4073bcfc 	.word	0x4073bcfc
+407046b0:	4073bd4e 	.word	0x4073bd4e
 
 407046b4 <do_error>:
 407046b4:	e92d4010 	push	{r4, lr}
@@ -3533,8 +3533,8 @@ Disassembly of section .text:
 407046c8:	e3a00000 	mov	r0, #0
 407046cc:	e8bd4010 	pop	{r4, lr}
 407046d0:	ea000029 	b	4070477c <reset_cpu>
-407046d4:	4073bd10 	.word	0x4073bd10
-407046d8:	4073bd5e 	.word	0x4073bd5e
+407046d4:	4073bd00 	.word	0x4073bd00
+407046d8:	4073bd4e 	.word	0x4073bd4e
 
 407046dc <do_bad_fiq>:
 407046dc:	e92d4010 	push	{r4, lr}
@@ -3545,8 +3545,8 @@ Disassembly of section .text:
 407046f0:	e3a00000 	mov	r0, #0
 407046f4:	e8bd4010 	pop	{r4, lr}
 407046f8:	ea00001f 	b	4070477c <reset_cpu>
-407046fc:	4073bd18 	.word	0x4073bd18
-40704700:	4073bd5e 	.word	0x4073bd5e
+407046fc:	4073bd08 	.word	0x4073bd08
+40704700:	4073bd4e 	.word	0x4073bd4e
 
 40704704 <do_bad_irq>:
 40704704:	e92d4010 	push	{r4, lr}
@@ -3557,8 +3557,8 @@ Disassembly of section .text:
 40704718:	e3a00000 	mov	r0, #0
 4070471c:	e8bd4010 	pop	{r4, lr}
 40704720:	ea000015 	b	4070477c <reset_cpu>
-40704724:	4073bd35 	.word	0x4073bd35
-40704728:	4073bd5e 	.word	0x4073bd5e
+40704724:	4073bd25 	.word	0x4073bd25
+40704728:	4073bd4e 	.word	0x4073bd4e
 
 4070472c <do_fiq>:
 4070472c:	e92d4010 	push	{r4, lr}
@@ -3569,8 +3569,8 @@ Disassembly of section .text:
 40704740:	e3a00000 	mov	r0, #0
 40704744:	e8bd4010 	pop	{r4, lr}
 40704748:	ea00000b 	b	4070477c <reset_cpu>
-4070474c:	4073bd1c 	.word	0x4073bd1c
-40704750:	4073bd5e 	.word	0x4073bd5e
+4070474c:	4073bd0c 	.word	0x4073bd0c
+40704750:	4073bd4e 	.word	0x4073bd4e
 
 40704754 <do_irq>:
 40704754:	e92d4010 	push	{r4, lr}
@@ -3581,8 +3581,8 @@ Disassembly of section .text:
 40704768:	e3a00000 	mov	r0, #0
 4070476c:	e8bd4010 	pop	{r4, lr}
 40704770:	ea000001 	b	4070477c <reset_cpu>
-40704774:	4073bd39 	.word	0x4073bd39
-40704778:	4073bd5e 	.word	0x4073bd5e
+40704774:	4073bd29 	.word	0x4073bd29
+40704778:	4073bd4e 	.word	0x4073bd4e
 
 4070477c <reset_cpu>:
 4070477c:	e59f100c 	ldr	r1, [pc, #12]	; 40704790 <rstctl>
