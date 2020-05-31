@@ -1,1 +1,1 @@
-#define DOPI_SPI_NOR 
+#define DOPI_SPI_NAND 

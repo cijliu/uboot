@@ -175,7 +175,7 @@
 /* Assume we boot with root on the seventh partition of eMMC */
 #ifdef DOPI_SPI_NAND
 /*#define CONFIG_BOOTARGS 	"mem=40M console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=jffs2 rw mtdparts=hi_sfc:512K(boot),5120K(kernel),10752K(rootfs)"*/
-#define CONFIG_BOOTARGS 	"mem=40M console=tty0 console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=yaffs2 rw mtdparts=hinand:512K(boot),5120K(kernel),240M(rootfs)"
+#define CONFIG_BOOTARGS 	"mem=40M console=tty0 console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=yaffs2 rw mtdparts=hinand:512K(boot),5120K(kernel),125440K(rootfs)"
 #define CONFIG_BOOTCOMMAND 	"nand read 0x42000000 0x80000 0x500000;bootm 0x42000000"
 /*#define CONFIG_BOOTCOMMAND 	"sf probe 0;sf read 0x42000000 0x80000 0x500000;bootm 0x42000000"*/
 #else
