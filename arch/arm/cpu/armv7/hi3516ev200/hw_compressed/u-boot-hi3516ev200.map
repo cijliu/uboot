@@ -357,11 +357,11 @@ Linker script and memory map
  .iplt          0x40704794        0x0 start.o
                 0x40704794                . = ALIGN (0x4)
 
-.image          0x407047a0    0x374d6
+.image          0x407047a0    0x374d7
  *(.image)
- .image         0x407047a0    0x374d6 image_data.o
+ .image         0x407047a0    0x374d7 image_data.o
                 0x407047a0                input_data
-                0x4073bc76                input_data_end
+                0x4073bc77                input_data_end
                 0x4073bc78                . = ALIGN (0x4)
 
 .rodata         0x4073bc78       0xac
